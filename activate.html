@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Activate this preview — Wensite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#111;color:#f6f3ee;font-family:"IBM Plex Sans",system-ui,sans-serif;padding:32px 20px}
+.card{max-width:420px;margin:0 auto}
+.k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#e8c36a;font-weight:700}
+h1{font-family:Fraunces,Georgia,serif;font-size:32px;line-height:1.15;margin:12px 0}
+p{color:rgba(246,243,238,.78);line-height:1.55}
+.price{font-size:28px;font-weight:700;color:#e8c36a;margin:18px 0}
+a.btn{display:flex;align-items:center;justify-content:center;min-height:48px;background:#e8c36a;color:#1a1408;font-weight:700;text-decoration:none;border-radius:999px}
+.fine{font-size:12px;color:#8a8680;margin-top:22px}
+</style>
+</head>
+<body>
+<article class="card">
+  <p class="k">Private preview · Wensite</p>
+  <h1>Claim <span id="biz">this site</span> for $99/mo</h1>
+  <p>Hosting, mobile updates, and the rebuild you just opened. This page is the only activate path — the countdown in the preview chrome leads here.</p>
+  <p class="price">$99/month</p>
+  <a class="btn" href="mailto:michael@wensite.co?subject=Activate%20preview">Email to activate</a>
+  <p class="fine" id="back"></p>
+</article>
+<script>
+var q = new URLSearchParams(location.search).get("biz") || "";
+var names = {
+  "kenworthey-law": "Kenworthey Law PLLC",
+  "levine-law": "Levine Law",
+  "heller-org": "The Heller Organization",
+  "365-kool": "365 Kool HVAC",
+  "martys-auto-body": "Marty's Auto Body",
+  "xl-rpm": "XL Real Property Management",
+  "irvine-auto-repair": "Irvine Auto Repair",
+  "wynn-nails": "Wynn Nails & Spa"
+};
+if (q && names[q]) document.getElementById("biz").textContent = names[q];
+if (q) {
+  var a = document.createElement("a");
+  a.href = "previews/" + q + "/v1/";
+  a.textContent = "Back to the " + (names[q] || q) + " preview";
+  a.style.color = "#e8c36a";
+  document.getElementById("back").appendChild(a);
+}
+</script>
+</body>
+</html>

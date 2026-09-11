@@ -1,0 +1,388 @@
+{
+  "project": "Wensite",
+  "batch": "pilot-10-global",
+  "generated": "2026-09-11",
+  "revision": "sanity-check-fix-1",
+  "base_url": "https://micwong3.github.io/wensite-previews/",
+  "offer": {
+    "activate": "$99/mo via shared chrome only",
+    "countdown_hours": "48-72 localStorage"
+  },
+  "shared_chrome": {
+    "css": "shared/preview-chrome.css",
+    "js": "shared/preview-chrome.js",
+    "reused_existing": true,
+    "activate_path": "chrome-only"
+  },
+  "sanity_fixes": [
+    "Distinct fonts + layouts per niche (spa/hvac/dental/legal/auto/plumbing/vet)",
+    "Vertical-specific H2 copy (no shared template H2)",
+    "Unique SVG/wordmarks (no letter-square)",
+    "Single Activate via shared chrome; removed in-page Activate + sticky Activate"
+  ],
+  "protected_slugs_untouched": [
+    "365-kool",
+    "heller-org",
+    "irvine-auto-repair",
+    "kenworthey-law",
+    "levine-law",
+    "martys-auto-body",
+    "wynn-nails",
+    "xl-rpm"
+  ],
+  "leads": [
+    {
+      "slug": "build-pro-mechanical",
+      "name": "Build-Pro Mechanical LLC",
+      "market": "Austin / Elgin, TX",
+      "cat": "hvac",
+      "phone": "(512) 955-5689",
+      "website": "https://buildpromechanical.com/",
+      "address": "18300 Basket Flower Bend, Elgin, TX 78621",
+      "scrape_ok": true,
+      "niche_fonts": "family=Archivo:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/build-pro-mechanical/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/build-pro-mechanical/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/build-pro-mechanical/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/build-pro-mechanical/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/build-pro-mechanical/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/build-pro-mechanical/v3/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "bank-dental",
+      "name": "Bank Dental Practice",
+      "market": "Prestwich, Greater Manchester",
+      "cat": "dental",
+      "phone": "0161 798 9955",
+      "website": "https://bankdentalpractice.co.uk/",
+      "address": "437 Bury New Road, Prestwich, Manchester M25 1AF",
+      "scrape_ok": false,
+      "niche_fonts": "family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/bank-dental/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/bank-dental/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/bank-dental/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/bank-dental/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/bank-dental/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/bank-dental/v3/index.html"
+        }
+      ],
+      "scrape_note": "Direct scrape 403/401; rebuilt from public CQC + indexed practice pages."
+    },
+    {
+      "slug": "omega-mp-autobody",
+      "name": "Omega MP Autobody",
+      "market": "Toronto, ON \u2014 The Junction",
+      "cat": "auto",
+      "phone": "(416) 769-5341",
+      "website": "https://www.mpautobody.ca/",
+      "address": "353 Ryding Avenue, Toronto, ON M6N 1H6",
+      "scrape_ok": true,
+      "niche_fonts": "family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;600;700",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/omega-mp-autobody/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/omega-mp-autobody/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/omega-mp-autobody/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/omega-mp-autobody/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/omega-mp-autobody/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/omega-mp-autobody/v3/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "hawthorn-vets",
+      "name": "Hawthorn Veterinary Clinic",
+      "market": "Hawthorn, Melbourne VIC",
+      "cat": "vet",
+      "phone": "03 9818 7818",
+      "website": "https://www.hawthornvets.com.au/",
+      "address": "200 Auburn Rd, Hawthorn VIC 3122",
+      "scrape_ok": true,
+      "niche_fonts": "family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700;800",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/hawthorn-vets/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/hawthorn-vets/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/hawthorn-vets/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/hawthorn-vets/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/hawthorn-vets/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/hawthorn-vets/v3/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "bacharach-law",
+      "name": "Bacharach Law",
+      "market": "Denver, CO",
+      "cat": "legal",
+      "phone": "(720) 303-5778",
+      "website": "https://bacharach.law/",
+      "address": "130 W. 5th Ave, Denver, CO 80204",
+      "scrape_ok": true,
+      "niche_fonts": "family=Libre+Franklin:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/bacharach-law/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/bacharach-law/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/bacharach-law/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/bacharach-law/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/bacharach-law/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/bacharach-law/v3/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "blooming-moon-spa",
+      "name": "Blooming Moon Wellness Spa",
+      "market": "Overlook, Portland OR",
+      "cat": "spa",
+      "phone": "(971) 279-2757",
+      "website": "https://www.bloomingmoonspa.com/",
+      "address": "1417 N. Shaver St, Portland, OR 97227",
+      "scrape_ok": true,
+      "niche_fonts": "family=Cormorant:wght@500;600;700&family=Outfit:wght@300;400;500;600",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/blooming-moon-spa/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/blooming-moon-spa/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/blooming-moon-spa/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/blooming-moon-spa/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/blooming-moon-spa/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/blooming-moon-spa/v3/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "kuhn-plumbing",
+      "name": "Kuhn Plumbing",
+      "market": "Chicago, IL",
+      "cat": "plumbing",
+      "phone": "(773) 525-0474",
+      "website": "https://kuhnplumbing.com/",
+      "address": "Chicago, IL",
+      "scrape_ok": true,
+      "niche_fonts": "family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/kuhn-plumbing/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/kuhn-plumbing/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/kuhn-plumbing/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/kuhn-plumbing/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/kuhn-plumbing/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/kuhn-plumbing/v3/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "nations-dental",
+      "name": "Nations Dental Studio",
+      "market": "West Nashville, TN",
+      "cat": "dental",
+      "phone": "(615) 933-5800",
+      "website": "https://nationsdentalstudio.com/",
+      "address": "4900 Centennial Blvd, Suite 104, Nashville, TN 37209",
+      "scrape_ok": true,
+      "niche_fonts": "family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/nations-dental/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/nations-dental/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/nations-dental/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/nations-dental/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/nations-dental/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/nations-dental/v3/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "capstone-solicitors",
+      "name": "Capstone Solicitors",
+      "market": "Bishopston, Bristol",
+      "cat": "legal",
+      "phone": "0117 942 8214",
+      "website": "https://www.capstonelaw.co.uk/",
+      "address": "62 Gloucester Road, Bristol BS7 8BH",
+      "scrape_ok": true,
+      "niche_fonts": "family=Libre+Franklin:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/capstone-solicitors/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/capstone-solicitors/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/capstone-solicitors/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/capstone-solicitors/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/capstone-solicitors/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/capstone-solicitors/v3/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "quality-air",
+      "name": "Quality Air",
+      "market": "Brisbane & SEQ",
+      "cat": "hvac",
+      "phone": "07 3395 7633",
+      "website": "https://www.qualityac.com.au/",
+      "address": "66 Riverside Place, Morningside QLD 4170",
+      "scrape_ok": true,
+      "niche_fonts": "family=Archivo:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700",
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Signature",
+          "note": "Primary niche-forward mobile rebuild",
+          "path": "previews/quality-air/v1/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/quality-air/v1/index.html"
+        },
+        {
+          "id": "v2",
+          "label": "Alternate",
+          "note": "Second layout within same niche system",
+          "path": "previews/quality-air/v2/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/quality-air/v2/index.html"
+        },
+        {
+          "id": "v3",
+          "label": "Editorial",
+          "note": "Third composition for A/B feel",
+          "path": "previews/quality-air/v3/index.html",
+          "url": "https://micwong3.github.io/wensite-previews/previews/quality-air/v3/index.html"
+        }
+      ]
+    }
+  ],
+  "scrape_failures": [
+    {
+      "slug": "bank-dental",
+      "website": "https://bankdentalpractice.co.uk/",
+      "note": "Direct scrape 403/401; rebuilt from public CQC + indexed practice pages."
+    }
+  ],
+  "review_samples": [
+    "previews/blooming-moon-spa/v1/index.html",
+    "previews/bacharach-law/v1/index.html",
+    "previews/build-pro-mechanical/v1/index.html"
+  ]
+}

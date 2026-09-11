@@ -1,0 +1,221 @@
+{
+  "project": "Wensite",
+  "batch": "flatiron-irvine-8",
+  "generated": "2026-09-11",
+  "baseUrl": "https://micwong3.github.io/wensite-previews/",
+  "offer": {
+    "activate": "$99/mo",
+    "countdown": "48-72h localStorage per slug"
+  },
+  "sharedChrome": {
+    "css": "shared/preview-chrome.css",
+    "js": "shared/preview-chrome.js",
+    "activate": "single path \u2014 sticky chrome only"
+  },
+  "reviewSamples": [
+    "previews/kenworthey-law/v1/index.html",
+    "previews/heller-org/v1/index.html"
+  ],
+  "leads": [
+    {
+      "slug": "kenworthey-law",
+      "name": "Kenworthey Law PLLC",
+      "phone": "(718) 344-5746",
+      "sourceUrl": "https://www.kenwortheylaw.com/",
+      "variants": [
+        {
+          "id": "v1",
+          "path": "previews/kenworthey-law/v1/index.html",
+          "label": "Letterhead"
+        },
+        {
+          "id": "v2",
+          "path": "previews/kenworthey-law/v2/index.html",
+          "label": "Counsel"
+        },
+        {
+          "id": "v3",
+          "path": "previews/kenworthey-law/v3/index.html",
+          "label": "Both worlds"
+        }
+      ],
+      "notes": "Scraped live site (Wix). Woman-owned, 137 Fifth Ave 9th Fl, office@kenwortheylaw.com. Practice areas from /practice-areas. Logo + attorney photo saved to assets/.",
+      "scrape": "ok"
+    },
+    {
+      "slug": "levine-law",
+      "name": "Levine Law Real Estate Closings",
+      "phone": "(917) 929-7396",
+      "sourceUrl": "https://levineclosings.com/",
+      "variants": [
+        {
+          "id": "v1",
+          "path": "previews/levine-law/v1/index.html",
+          "label": "Closing desk"
+        },
+        {
+          "id": "v2",
+          "path": "previews/levine-law/v2/index.html",
+          "label": "Premier"
+        },
+        {
+          "id": "v3",
+          "path": "previews/levine-law/v3/index.html",
+          "label": "Daniel"
+        }
+      ],
+      "notes": "WebFetch succeeded; direct curl later hit an SG captcha (169-byte interstitial). Copy, offices, and Daniel Levine details from the successful scrape. No usable logo found \u2014 typeset wordmark, not a letter-square.",
+      "scrape": "partial \u2014 later requests captcha-blocked; initial WebFetch OK"
+    },
+    {
+      "slug": "heller-org",
+      "name": "The Heller Organization",
+      "phone": "(212) 366-5034",
+      "sourceUrl": "https://hellerorg.com/",
+      "variants": [
+        {
+          "id": "v1",
+          "path": "previews/heller-org/v1/index.html",
+          "label": "Portfolio"
+        },
+        {
+          "id": "v2",
+          "path": "previews/heller-org/v2/index.html",
+          "label": "United brand"
+        },
+        {
+          "id": "v3",
+          "path": "previews/heller-org/v3/index.html",
+          "label": "Since 1997"
+        }
+      ],
+      "notes": "Scraped home, about-us, buy, contact. 54 W 21st Ste 608. Wordmark + West Wharf / Roosevelt Parc / Exhibit / 31W16 photos in assets/.",
+      "scrape": "ok"
+    },
+    {
+      "slug": "365-kool",
+      "name": "365 Kool HVAC",
+      "phone": "(347) 821-0344",
+      "sourceUrl": "https://www.365kool.com/",
+      "variants": [
+        {
+          "id": "v1",
+          "path": "previews/365-kool/v1/index.html",
+          "label": "Stay cool"
+        },
+        {
+          "id": "v2",
+          "path": "previews/365-kool/v2/index.html",
+          "label": "365"
+        },
+        {
+          "id": "v3",
+          "path": "previews/365-kool/v3/index.html",
+          "label": "Family shop"
+        }
+      ],
+      "notes": "www.365kool.com returned 403 to WebFetch; curl to https://365kool.com/ succeeded (WordPress/Astra, brand blue #046bd2). Logo + service photos saved. Named Google reviews used only as they appear on the live site.",
+      "scrape": "blocked on www (403); recovered via curl to apex 365kool.com"
+    },
+    {
+      "slug": "martys-auto-body",
+      "name": "Marty's Auto Body",
+      "phone": "(212) 255-7654",
+      "sourceUrl": "https://mautobody.us/",
+      "variants": [
+        {
+          "id": "v1",
+          "path": "previews/martys-auto-body/v1/index.html",
+          "label": "West 25th"
+        },
+        {
+          "id": "v2",
+          "path": "previews/martys-auto-body/v2/index.html",
+          "label": "Shop"
+        },
+        {
+          "id": "v3",
+          "path": "previews/martys-auto-body/v3/index.html",
+          "label": "Since 2000"
+        }
+      ],
+      "notes": "Scraped live site. Dark + light logos saved. Hours 8am\u20135pm, 500 W 25th St, mautobody@aol.com.",
+      "scrape": "ok"
+    },
+    {
+      "slug": "xl-rpm",
+      "name": "XL Real Property Management",
+      "phone": "(212) 203-8684",
+      "sourceUrl": "https://www.xl-rpm.com/",
+      "variants": [
+        {
+          "id": "v1",
+          "path": "previews/xl-rpm/v1/index.html",
+          "label": "Skyline"
+        },
+        {
+          "id": "v2",
+          "path": "previews/xl-rpm/v2/index.html",
+          "label": "Standard"
+        },
+        {
+          "id": "v3",
+          "path": "previews/xl-rpm/v3/index.html",
+          "label": "Pied-\u00e0-terre"
+        }
+      ],
+      "notes": "Scraped live site. White wordmark, team photo, skyline saved. Testimonials used only with names published on xl-rpm.com.",
+      "scrape": "ok"
+    },
+    {
+      "slug": "irvine-auto-repair",
+      "name": "Irvine Auto Repair",
+      "phone": "(949) 450-0800",
+      "sourceUrl": "https://www.irvineautotechs.com/",
+      "variants": [
+        {
+          "id": "v1",
+          "path": "previews/irvine-auto-repair/v1/index.html",
+          "label": "Warranty"
+        },
+        {
+          "id": "v2",
+          "path": "previews/irvine-auto-repair/v2/index.html",
+          "label": "STAR"
+        },
+        {
+          "id": "v3",
+          "path": "previews/irvine-auto-repair/v3/index.html",
+          "label": "37 years"
+        }
+      ],
+      "notes": "Scraped home + /services. Primary phone (949) 450-0800 as specified and on services page; live footer also lists 949-264-0318. Logo from Squarespace. 8797 Irvine Center Dr Suite F.",
+      "scrape": "ok"
+    },
+    {
+      "slug": "wynn-nails",
+      "name": "Wynn Nails & Spa",
+      "phone": "(949) 757-0374",
+      "sourceUrl": "https://www.wynnnailsandspairvine.com/",
+      "variants": [
+        {
+          "id": "v1",
+          "path": "previews/wynn-nails/v1/index.html",
+          "label": "Menu"
+        },
+        {
+          "id": "v2",
+          "path": "previews/wynn-nails/v2/index.html",
+          "label": "Glam"
+        },
+        {
+          "id": "v3",
+          "path": "previews/wynn-nails/v3/index.html",
+          "label": "Ritual"
+        }
+      ],
+      "notes": "Scraped live site. Brand tokens from their CSS: cream #FFFDD0, black #111110, gold #B89A5A, Cormorant Garamond + DM Sans. Hero extracted from inlined JPEG. Menu prices from live pricing tables. No separate logo file \u2014 typeset WYNN, not a letter-square.",
+      "scrape": "ok"
+    }
+  ]
+}
