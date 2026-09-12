@@ -93,3 +93,25 @@ body.ws-has-chrome { padding-top: 0; }
   .ws-chrome { padding: 12px 22px 14px; }
   .ws-copy { font-size: 13px; }
 }
+
+@media (min-width: 960px) {
+  .ws-chrome {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "top act"
+      "copy act";
+    align-items: center;
+    column-gap: 28px;
+    max-width: none;
+  }
+  .ws-chrome-top { grid-area: top; }
+  .ws-copy { grid-area: copy; margin: 4px 0 0; max-width: 56rem; }
+  .ws-activate {
+    grid-area: act;
+    width: auto;
+    min-width: 240px;
+    padding: 0 22px;
+    align-self: center;
+  }
+}

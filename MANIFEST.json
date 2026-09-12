@@ -49,23 +49,13 @@
       "sourceUrl": "https://levineclosings.com/",
       "variants": [
         {
-          "id": "v1",
-          "path": "previews/levine-law/v1/index.html",
-          "label": "Closing desk"
-        },
-        {
-          "id": "v2",
-          "path": "previews/levine-law/v2/index.html",
-          "label": "Premier"
-        },
-        {
-          "id": "v3",
-          "path": "previews/levine-law/v3/index.html",
-          "label": "Daniel"
+          "id": "canonical",
+          "path": "previews/levine-law/index.html",
+          "label": "Premier closings"
         }
       ],
-      "notes": "WebFetch succeeded; direct curl later hit an SG captcha (169-byte interstitial). Copy, offices, and Daniel Levine details from the successful scrape. No usable logo found \u2014 typeset wordmark, not a letter-square.",
-      "scrape": "partial \u2014 later requests captcha-blocked; initial WebFetch OK"
+      "notes": "Desktop-first rebuild inspired by levineclosings.com (mustard #e09c26 + navy #0b2a42, crest, diagonal hero). Live curl/SG captcha blocked asset scrape; copy/offices from WebFetch. Reference screenshots used. ONE canonical preview at previews/levine-law/index.html (old v1/v2/v3 phone skins removed).",
+      "scrape": "partial \u2014 SG captcha on curl; WebFetch + reference screenshots OK"
     },
     {
       "slug": "heller-org",

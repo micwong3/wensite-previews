@@ -55,7 +55,7 @@
       '<span class="ws-badge">Private preview</span>' +
       '<span class="ws-timer" data-ws-timer aria-live="polite">—</span>' +
     "</div>" +
-    '<p class="ws-copy">A private mobile rebuild for <strong>' +
+    '<p class="ws-copy">A private rebuild for <strong>' +
       name.replace(/</g, "&lt;") +
     "</strong>. Not a live site — claim it before this preview expires.</p>" +
     '<a class="ws-activate" data-ws-activate href="' +
