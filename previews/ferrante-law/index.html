@@ -42,8 +42,8 @@ button{font:inherit;border:0;background:none;cursor:pointer;color:inherit}
 @media (min-width:900px){.nav-desktop{display:flex}.menu-btn{display:none}.nav-drawer{display:none!important}}
 .hero{position:relative;background:var(--hero-bg);color:var(--hero-fg);overflow:hidden;min-height:min(72vh,600px);display:grid}
 .hero-grid{display:grid;grid-template-columns:1fr;min-height:inherit}
-.hero-visual{position:relative;min-height:280px;background:var(--hero-visual)}
-.hero-visual::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.25),transparent 50%)}
+.hero-visual{position:relative;min-height:280px;background:var(--hero-visual);overflow:hidden}.hero-visual img.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.hero-visual::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(to top,rgba(0,0,0,.25),transparent 50%)}
 .hero-copy{position:relative;z-index:2;padding:44px 24px 52px;display:flex;flex-direction:column;justify-content:center;background:var(--hero-bg)}
 .hero-kicker{margin:0 0 12px;font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)}
 .hero-kicker::after{content:"";display:block;width:44px;height:2px;margin-top:12px;background:var(--accent)}
@@ -142,7 +142,7 @@ section{padding:68px 0;scroll-margin-top:100px}
 <a href="#contact">Contact</a>
 <a href="tel:+13125780303">Call (312) 578-0303</a></div></header>
 <section class="hero"><div class="hero-grid">
-<div class="hero-visual" aria-hidden="true"></div><div class="hero-copy">
+<div class="hero-visual" aria-hidden="true"><img class="hero-photo" src="../../assets/photos/ferrante-law-hero.jpg" alt=""></div><div class="hero-copy">
 <p class="hero-kicker">Chicago trial counsel · Est. 1991</p>
 <h1>Serious injury. Focused advocacy.</h1>
 <p class="hero-lead">Mark V. Ferrante is a Chicago trial lawyer with 39+ years of experience litigating complex personal injury and wrongful death matters — keeping caseloads manageable so clients get a personal relationship, not a file number.</p>
