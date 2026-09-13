@@ -490,23 +490,37 @@ button{font:inherit;border:0;background:none;cursor:pointer;color:inherit}
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
+  width: min(var(--max, 1180px), calc(100% - 48px));
+  margin-inline: auto;
 }
 .home-trust article {
-  padding: 22px 18px;
-  border-bottom: 1px solid var(--line);
-  border-right: 1px solid var(--line);
+  position: relative;
+  padding: 24px 20px;
   min-width: 0;
+  text-align: left;
 }
-.home-trust article:nth-child(2n) { border-right: 0; }
-.home-trust article:nth-child(n+3) { border-bottom: 0; }
+/* vertical divider between columns — inset so text never touches */
+.home-trust article:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  right: 0;
+  width: 1px;
+  background: var(--line);
+}
+.home-trust article:nth-child(2n)::after { display: none; } /* mobile 2-col: no right edge on col2 */
+.home-trust article:nth-child(-n+2) {
+  border-bottom: 1px solid var(--line);
+}
 .home-trust strong {
   display: block;
   font-family: var(--display);
-  font-size: clamp(18px, 1.8vw, 24px);
+  font-size: clamp(18px, 1.7vw, 22px);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
   color: var(--ink);
-  padding-right: 4px;
+  letter-spacing: 0.02em;
 }
 .home-trust span {
   display: block;
@@ -516,23 +530,20 @@ button{font:inherit;border:0;background:none;cursor:pointer;color:inherit}
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
-  line-height: 1.35;
-  padding-right: 4px;
+  line-height: 1.4;
 }
 @media (min-width: 900px) {
   .home-trust-grid {
     grid-template-columns: repeat(4, 1fr);
   }
   .home-trust article {
-    border-bottom: 0;
-    border-right: 1px solid var(--line);
-    padding: 28px 24px; /* equal L/R so text never kisses dividers */
+    padding: 32px 28px;
+    border-bottom: 0 !important;
   }
-  .home-trust article:first-child { padding-left: 0; }
-  .home-trust article:last-child {
-    border-right: 0;
-    padding-right: 0;
-  }
+  .home-trust article:nth-child(2n)::after { display: block; } /* restore dividers on all but last */
+  .home-trust article:last-child::after { display: none; }
+  .home-trust article:first-child { padding-left: 4px; }
+  .home-trust article:last-child { padding-right: 4px; }
 }
 
 /* Compact home service teasers */
