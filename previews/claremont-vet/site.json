@@ -1,0 +1,69 @@
+{
+  "slug": "claremont-vet",
+  "name": "Claremont Vet Surgery",
+  "shortName": "Claremont Vet Surgery",
+  "phone": "(03) 6289 5262",
+  "phoneTel": "+61362895262",
+  "market": "Claremont / Hobart, TAS",
+  "tagline": "Family-run clinic \u00b7 Emma & Daniel Pettet",
+  "sourceUrl": "https://www.claremontvetsurgery.com.au/",
+  "heroPhoto": "../../assets/photos/claremont-vet-hero.jpg",
+  "heroPhotoAlt": "Claremont Vet Surgery preview hero",
+  "claimLight": true,
+  "proof": [
+    "Family-owned",
+    "40+ years experience",
+    "Modern facilities",
+    "Community-minded"
+  ],
+  "primaryCta": {
+    "label": "Call the clinic",
+    "href": "tel:+61362895262"
+  },
+  "services": [
+    {
+      "title": "Consults & advice",
+      "blurb": "Personalised help when your pet is unwell or you need a second opinion."
+    },
+    {
+      "title": "Surgery & procedures",
+      "blurb": "Well-equipped facilities designed for calm, capable care."
+    },
+    {
+      "title": "Preventive visits",
+      "blurb": "Everyday care delivered with the same welcome as complex cases."
+    },
+    {
+      "title": "Family-run clinic",
+      "blurb": "Emma and Daniel Pettet \u2014 both vets \u2014 with a full nursing team."
+    },
+    {
+      "title": "Treatment options explained",
+      "blurb": "Risks and benefits discussed before you decide."
+    },
+    {
+      "title": "Community support",
+      "blurb": "Supports local groups including Dog's Home of Tasmania and Hobart Feline Rescue."
+    }
+  ],
+  "about": {
+    "headline": "A long-held dream, realised in Claremont.",
+    "body": "While working in clinics around the world, Emma and Daniel shaped a vision: excellent care for pets and friendly, personalised advice for owners. Claremont Veterinary Surgery is that vision \u2014 now shared with Drs Kate New Tolley and Natalie Jones. Reception lead Kat Mitchell (Cert IV veterinary nurse) anchors a nursing team of Rhianna, Chantelle, Stella, and Sam, supported by animal attendants Danielle and Sophie. The clinic supports local groups including the Dog's Home of Tasmania and Hobart Fe"
+  },
+  "address": "Main Road, Claremont, Hobart, Tasmania",
+  "hours": "Call (03) 6289 5262 for appointments",
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a3038",
+    "accent": "#2d8a7a",
+    "accentSoft": "#7bc4b6",
+    "paper": "#f5f8f7",
+    "display": "Source Serif 4",
+    "sans": "Libre Franklin"
+  }
+}

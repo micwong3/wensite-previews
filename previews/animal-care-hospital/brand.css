@@ -1,0 +1,76 @@
+/* Animal Care Hospital — lead brand tokens (stamp swap point) */
+@import url("https://fonts.googleapis.com/css2?family=Literata:wght@500;600;700&family=Karla:wght@400;500;600;700&display=swap");
+
+:root {
+  --max: 1180px;
+  --ink: #1b2e1f;
+  --ink-soft: #243a28;
+  --muted: #5d6f60;
+  --paper: #f6f8f4;
+  --soft: #e7efe4;
+  --line: rgba(27,46,31,.1);
+  --accent: #c9a227;
+  --accent-ink: #1b2e1f;
+  --accent-soft: #e6cf6e;
+  --header-bg: #1b2e1f;
+  --header-fg: #f6f8f4;
+  --cta-bg: #c9a227;
+  --cta-fg: #1b2e1f;
+  --card: #fff;
+  --footer-bg: #0f1a12;
+  --radius: 8px;
+  --card-radius: 12px;
+  --display: "Literata",Georgia,serif;
+  --sans: "Karla",system-ui,sans-serif;
+  --brand-track: .04em;
+  --h1-track: 0;
+}
+
+/* Services page list */
+.svc-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 800px) {
+  .svc-list { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+.svc-item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--card-radius);
+  padding: 24px 22px;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 14px;
+  align-items: start;
+}
+.svc-num {
+  font-family: var(--display);
+  font-size: 28px;
+  color: var(--accent);
+  line-height: 1;
+  padding-top: 2px;
+}
+.svc-item h3 {
+  margin: 0 0 6px;
+  font-family: var(--display);
+  font-size: 24px;
+}
+.svc-item p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.note-claim {
+  margin-top: 28px;
+  padding: 16px 18px;
+  background: var(--soft);
+  border-left: 3px solid var(--accent);
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.55;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+

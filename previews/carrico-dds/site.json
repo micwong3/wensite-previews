@@ -1,0 +1,69 @@
+{
+  "slug": "carrico-dds",
+  "name": "Dr. George L. Carrico Jr., DDS",
+  "shortName": "Dr. Carrico DDS",
+  "phone": "(317) 247-1010",
+  "phoneTel": "+13172471010",
+  "market": "Indianapolis, IN",
+  "tagline": "Family Dental Care \u00b7 High School Road",
+  "sourceUrl": "http://www.georgelcarricojrdds.com/",
+  "heroPhoto": "../../assets/photos/carrico-dds-hero.jpg",
+  "heroPhotoAlt": "Dr. Carrico DDS preview hero",
+  "claimLight": true,
+  "proof": [
+    "Family practice",
+    "Mon\u2013Fri 8\u20135",
+    "Comfort-focused",
+    "West Indianapolis"
+  ],
+  "primaryCta": {
+    "label": "Schedule your appointment",
+    "href": "tel:+13172471010"
+  },
+  "services": [
+    {
+      "title": "Family dentistry",
+      "blurb": "Care for the whole household in one familiar office."
+    },
+    {
+      "title": "Comfort first",
+      "blurb": "A warm environment designed so visits feel manageable."
+    },
+    {
+      "title": "Clear next steps",
+      "blurb": "Treatment explained so you leave knowing the plan."
+    },
+    {
+      "title": "Family Dental Care",
+      "blurb": "Quality dental services for Indianapolis families."
+    },
+    {
+      "title": "Comfort-focused visits",
+      "blurb": "Warm, friendly environment \u2014 comfort is the main concern."
+    },
+    {
+      "title": "Weekday appointments",
+      "blurb": "Monday\u2013Friday 8AM\u20135PM \u2014 call to schedule."
+    }
+  ],
+  "about": {
+    "headline": "Dr. George L. Carrico Jr., DDS",
+    "body": "Here at Family Dental Care, we are as we say a big family. The practice ensures patients are comfortable and receive the best dental care possible in a warm, friendly environment. Your comfort and good oral health are the priority. Give us a try \u2014 you'll see why patients stick around."
+  },
+  "address": "610 N High School Rd, Indianapolis, IN 46214",
+  "hours": "Monday \u2013 Friday 8AM \u2013 5PM",
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1e2a44",
+    "accent": "#3b6ea5",
+    "accentSoft": "#8eb6d9",
+    "paper": "#f7f8fb",
+    "display": "Newsreader",
+    "sans": "DM Sans"
+  }
+}

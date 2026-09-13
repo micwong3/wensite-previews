@@ -1,0 +1,76 @@
+/* Combs Family Dentistry — lead brand tokens (stamp swap point) */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650;9..144,700&family=Outfit:wght@400;500;600;700&display=swap");
+
+:root {
+  --max: 1180px;
+  --ink: #1a2f2a;
+  --ink-soft: #243d36;
+  --muted: #5d736c;
+  --paper: #f7faf8;
+  --soft: #e8f2ee;
+  --line: rgba(26,47,42,.1);
+  --accent: #2a9d8f;
+  --accent-ink: #fff;
+  --accent-soft: #7dd3c7;
+  --header-bg: #f7faf8;
+  --header-fg: #1a2f2a;
+  --cta-bg: #2a9d8f;
+  --cta-fg: #fff;
+  --card: #fff;
+  --footer-bg: #0f1c19;
+  --radius: 999px;
+  --card-radius: 16px;
+  --display: "Fraunces",Georgia,serif;
+  --sans: "Outfit",system-ui,sans-serif;
+  --brand-track: .02em;
+  --h1-track: 0;
+}
+
+/* Services page list */
+.svc-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 800px) {
+  .svc-list { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+.svc-item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--card-radius);
+  padding: 24px 22px;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 14px;
+  align-items: start;
+}
+.svc-num {
+  font-family: var(--display);
+  font-size: 28px;
+  color: var(--accent);
+  line-height: 1;
+  padding-top: 2px;
+}
+.svc-item h3 {
+  margin: 0 0 6px;
+  font-family: var(--display);
+  font-size: 24px;
+}
+.svc-item p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.note-claim {
+  margin-top: 28px;
+  padding: 16px 18px;
+  background: var(--soft);
+  border-left: 3px solid var(--accent);
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.55;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+

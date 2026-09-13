@@ -1,0 +1,69 @@
+{
+  "slug": "happy-feet-relaxing",
+  "name": "Happy Feet Relaxing",
+  "shortName": "Happy Feet Relaxing",
+  "phone": "(614) 808-1788",
+  "phoneTel": "+16148081788",
+  "market": "Columbus, OH",
+  "tagline": "Premier massage spa \u00b7 Carriage Place",
+  "sourceUrl": "https://happyfeetrelaxing.weebly.com/",
+  "heroPhoto": "../../assets/photos/happy-feet-relaxing-hero.jpg",
+  "heroPhotoAlt": "Happy Feet Relaxing preview hero",
+  "claimLight": true,
+  "proof": [
+    "Foot reflexology",
+    "Full-body massage",
+    "Couples welcome",
+    "Walk-ins if available"
+  ],
+  "primaryCta": {
+    "label": "Call to book",
+    "href": "tel:+16148081788"
+  },
+  "services": [
+    {
+      "title": "Foot reflexology",
+      "blurb": "Invigorating foot work that eases stress stored from the ground up."
+    },
+    {
+      "title": "Full-body massage",
+      "blurb": "Soothing sessions for tension, recovery, and quiet time."
+    },
+    {
+      "title": "Signature combos",
+      "blurb": "Foot reflexology plus bodywork in one rejuvenating visit."
+    },
+    {
+      "title": "Foot massage",
+      "blurb": "Foot massage and reflexology in a clean, calm spa."
+    },
+    {
+      "title": "Men, women & couples",
+      "blurb": "Open for men, women, and couples \u2014 book ahead for two."
+    },
+    {
+      "title": "Walk-ins (call first)",
+      "blurb": "Walk-ins welcome when available \u2014 call first so you won't wait."
+    }
+  ],
+  "about": {
+    "headline": "Central Columbus calm.",
+    "body": "Happy Feet Relaxing opened in 2019 to give Columbus a non-medical, drug-free way to reset \u2014 increase blood flow, ease stress, and leave lighter than you arrived. You'll find us on the north side of Bethel near Sawmill, between the Crepe Shop and Avis, walking distance to Walmart. Reasonable prices and monthly specials."
+  },
+  "address": "2716 Bethel Road, Columbus, OH (Carriage Place)",
+  "hours": "Book online or call \u00b7 Walk-ins welcome if available",
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#2d2a26",
+    "accent": "#6b8f71",
+    "accentSoft": "#b7c9b0",
+    "paper": "#faf6f1",
+    "display": "Cormorant Garamond",
+    "sans": "Nunito Sans"
+  }
+}

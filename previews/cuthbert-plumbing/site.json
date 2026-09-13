@@ -1,0 +1,73 @@
+{
+  "slug": "cuthbert-plumbing",
+  "name": "Cuthbert Plumbing",
+  "shortName": "Cuthbert Plumbing",
+  "phone": "(403) 863-7149",
+  "phoneTel": "+14038637149",
+  "market": "Calgary, AB",
+  "tagline": "Navien specialist \u00b7 Owner-operated",
+  "sourceUrl": "https://www.cuthbertplumbingcalgary.com/",
+  "heroPhoto": "../../assets/photos/cuthbert-plumbing-hero.jpg",
+  "heroPhotoAlt": "Cuthbert Plumbing preview hero",
+  "claimLight": true,
+  "proof": [
+    "Navien specialist",
+    "No subcontractors",
+    "Tankless upgrades",
+    "Combi boilers"
+  ],
+  "primaryCta": {
+    "label": "Call or text Scott",
+    "href": "tel:+14038637149"
+  },
+  "services": [
+    {
+      "title": "Navien tankless",
+      "blurb": "Endless hot water, space savings, and efficiency vs standby tanks."
+    },
+    {
+      "title": "Combi boilers",
+      "blurb": "One unit for domestic hot water and in-floor heat \u2014 done right."
+    },
+    {
+      "title": "Boiler upgrades",
+      "blurb": "High-efficiency Navien boilers sized and vented for Alberta winters."
+    },
+    {
+      "title": "Hot water tank upgrades",
+      "blurb": "Replace aging tanks with modern Navien tankless systems."
+    },
+    {
+      "title": "Dual-purpose system upgrades",
+      "blurb": "Homes using one heater for DHW and in-floor heat."
+    },
+    {
+      "title": "Owner-operated installs",
+      "blurb": "Licensed journeyman \u2014 all work completed by Scott, no subcontractors."
+    },
+    {
+      "title": "Code-compliant venting",
+      "blurb": "Proper system sizing, venting, and installation."
+    }
+  ],
+  "about": {
+    "headline": "Scott Cuthbert, journeyman plumber",
+    "body": "Cuthbert Plumbing focuses on upgrading older hot water tanks, dual-purpose water heater / in-floor systems, and boilers to modern Navien tankless, combination boilers, and boilers. All work is completed by Scott \u2014 no subcontractors. If your system is aging, inefficient, or running out of hot water, a correctly installed Navien system restores performance for Calgary's climate."
+  },
+  "address": "Calgary, Alberta",
+  "hours": "Call or text for scheduling",
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0b1f2a",
+    "accent": "#c45c26",
+    "accentSoft": "#e8a06a",
+    "paper": "#f4f7f9",
+    "display": "Barlow Condensed",
+    "sans": "Barlow"
+  }
+}
