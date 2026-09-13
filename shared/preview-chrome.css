@@ -92,6 +92,7 @@
 .ws-expired .ws-timer { color: #ffb4b4; }
 
 body.ws-has-chrome { padding-top: 0; }
+body.ws-has-chrome .site-header { box-shadow: none; }
 
 .ws-activate-panel {
   scroll-margin-top: 96px;
