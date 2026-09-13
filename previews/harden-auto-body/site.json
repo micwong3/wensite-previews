@@ -5,7 +5,7 @@
   "phone": "(216) 382-3232",
   "phoneTel": "+12163823232",
   "market": "South Euclid / Cleveland, OH",
-  "tagline": "You bend 'em \u2014 we mend 'em since 1975",
+  "tagline": "You bend 'em — we mend 'em since 1975",
   "sourceUrl": "https://www.hardenautobody.com/",
   "heroPhoto": "../../assets/photos/harden-auto-body-hero.jpg",
   "heroPhotoAlt": "Harden Auto Body preview hero",
@@ -23,7 +23,7 @@
   "services": [
     {
       "title": "Collision repair",
-      "blurb": "Major and minor bodywork on all makes and models \u2014 foreign and domestic."
+      "blurb": "Major and minor bodywork on all makes and models — foreign and domestic."
     },
     {
       "title": "Frame & unibody",
@@ -43,7 +43,7 @@
     },
     {
       "title": "All makes & models",
-      "blurb": "Foreign and domestic vehicles \u2014 ding to major collision."
+      "blurb": "Foreign and domestic vehicles — ding to major collision."
     },
     {
       "title": "Lifetime repair guarantee",
@@ -55,7 +55,7 @@
     "body": "Harden Auto Body, Inc. is a family-owned collision shop serving greater Cleveland from South Euclid, close to Mayfield and Green. Over 250 years of combined experience sits on the shop floor. We repair what you drive, guarantee the work for as long as you own the car (excluding normal wear), and keep rentals simple with Enterprise on-site. Email hardenab@yahoo.com or call the shop direct."
   },
   "address": "4353 Mayfield Rd, South Euclid, OH 44121",
-  "hours": "Mon\u2013Fri 8:00am\u20135:30pm \u00b7 Closed Sat\u2013Sun",
+  "hours": "Mon–Fri 8:00am–5:30pm · Closed Sat–Sun (public listing)",
   "email": "hardenab@yahoo.com",
   "pages": [
     "home",
@@ -69,5 +69,9 @@
     "paper": "#f6f5f3",
     "display": "Oswald",
     "sans": "IBM Plex Sans"
-  }
+  },
+  "contactSource": "public_listing",
+  "contactSourceNote": "From public listing (contact/hours pages 404 on hardenautobody.com).",
+  "addressNote": "From public listing (contact/hours pages 404 on hardenautobody.com).",
+  "emailNote": "From public listing (contact/hours pages 404 on hardenautobody.com)."
 }
