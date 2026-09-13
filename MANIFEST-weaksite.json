@@ -172,26 +172,27 @@
       "stamp": true
     },
     {
-      "slug": "rashid-law",
-      "name": "Rashid Law",
-      "phone": "+44 121 824 1084",
-      "phoneTel": "+441218241084",
-      "sourceUrl": "https://rashidlaw.co.uk/",
-      "path": "previews/rashid-law/",
-      "market": "Birmingham, UK",
-      "cat": "legal",
-      "notes": "Multi-page LGSL stamp. Replaced theme placeholders (+123456789, info@domainname.com, 0+ counters) with indigo/teal UK firm brand; content from WebFetch (curl 403).",
-      "scrape": "partial",
+      "slug": "bdm-mechanical",
+      "name": "BDM Mechanical LLC",
+      "phone": "(203) 533-5674",
+      "phoneTel": "+12035335674",
+      "sourceUrl": "https://sites.google.com/site/bdmmechanicalct/bdm-mechanical-ac-heating",
+      "path": "previews/bdm-mechanical/",
+      "market": "Guilford / New Haven County, CT",
+      "cat": "hvac",
+      "notes": "Multi-page LGSL stamp. Replaced rashid-law in pilot-10. Deep navy + steel/cyan CT HVAC brand; claim-light from Google Sites scrape. No street address published. William DeMatteo / 22 years / CT certified inspector / 24/7.",
+      "scrape": "ok",
       "desktop_first": true,
       "max_width": "1120-1180px",
-      "scrape_detail": "curl 403; WebFetch OK",
+      "scrape_detail": "facts from live Google Sites page; no street address",
       "pages": [
-        "previews/rashid-law/index.html",
-        "previews/rashid-law/services/index.html",
-        "previews/rashid-law/contact/index.html"
+        "previews/bdm-mechanical/index.html",
+        "previews/bdm-mechanical/services/index.html",
+        "previews/bdm-mechanical/contact/index.html"
       ],
       "ia": "multi-page",
-      "stamp": true
+      "stamp": true,
+      "replaced": "rashid-law"
     },
     {
       "slug": "claremont-vet",
@@ -239,14 +240,15 @@
     }
   ],
   "scrape_summary": {
-    "ok": 9,
-    "partial": 1,
+    "ok": 10,
+    "partial": 0,
     "failures": [],
     "notes": [
-      "rashid-law: curl returned 403; content recovered via WebFetch (placeholders stripped).",
+      "bdm-mechanical: replaced rashid-law in pilot-10; Google Sites facts; no street address published.",
       "harden-contact/hours pages 404 on live site \u2014 hours/address from prior listing + homepage.",
       "claremont-vet tel confirmed +61362895262 from (03) 6289 5262.",
-      "lgsl-mechanical: gold multi-page stamp retained."
+      "lgsl-mechanical: gold multi-page stamp retained.",
+      "rashid-law: removed from active pilot indexes (folder may remain on disk unused)."
     ]
   },
   "stamp": {
