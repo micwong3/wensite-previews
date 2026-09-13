@@ -492,28 +492,32 @@ button{font:inherit;border:0;background:none;cursor:pointer;color:inherit}
   gap: 0;
 }
 .home-trust article {
-  padding: 22px 16px;
+  padding: 22px 18px;
   border-bottom: 1px solid var(--line);
   border-right: 1px solid var(--line);
+  min-width: 0;
 }
 .home-trust article:nth-child(2n) { border-right: 0; }
 .home-trust article:nth-child(n+3) { border-bottom: 0; }
 .home-trust strong {
   display: block;
   font-family: var(--display);
-  font-size: clamp(20px, 2vw, 26px);
+  font-size: clamp(18px, 1.8vw, 24px);
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.15;
   color: var(--ink);
+  padding-right: 4px;
 }
 .home-trust span {
   display: block;
-  margin-top: 6px;
+  margin-top: 8px;
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
+  line-height: 1.35;
+  padding-right: 4px;
 }
 @media (min-width: 900px) {
   .home-trust-grid {
@@ -522,9 +526,13 @@ button{font:inherit;border:0;background:none;cursor:pointer;color:inherit}
   .home-trust article {
     border-bottom: 0;
     border-right: 1px solid var(--line);
-    padding: 26px 8px 26px 0;
+    padding: 28px 24px; /* equal L/R so text never kisses dividers */
   }
-  .home-trust article:last-child { border-right: 0; }
+  .home-trust article:first-child { padding-left: 0; }
+  .home-trust article:last-child {
+    border-right: 0;
+    padding-right: 0;
+  }
 }
 
 /* Compact home service teasers */
