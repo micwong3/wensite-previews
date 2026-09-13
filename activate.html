@@ -38,12 +38,15 @@ var names = {
   "martys-auto-body": "Marty's Auto Body",
   "xl-rpm": "XL Real Property Management",
   "irvine-auto-repair": "Irvine Auto Repair",
-  "wynn-nails": "Wynn Nails & Spa"
+  "wynn-nails": "Wynn Nails & Spa",
+  "lgsl-mechanical": "LGSL Mechanical LLC"
 };
 if (q && names[q]) document.getElementById("biz").textContent = names[q];
 if (q) {
   var a = document.createElement("a");
-  a.href = "previews/" + q + "/v1/";
+  var backPath = "previews/" + q + "/";
+  // Prefer multi-page stamp root; fall back to v1 if needed by caller
+  a.href = backPath;
   a.textContent = "Back to the " + (names[q] || q) + " preview";
   a.style.color = "#e8c36a";
   document.getElementById("back").appendChild(a);

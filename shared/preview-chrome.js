@@ -41,9 +41,16 @@
     return pad(h) + ":" + pad(m) + ":" + pad(s);
   }
 
+  /** Resolve path to repo-root activate.html for multi-page stamps. */
   function activateHref() {
     var custom = body.getAttribute("data-activate-href");
     if (custom) return custom;
+    var root = body.getAttribute("data-ws-root");
+    if (root) {
+      root = root.replace(/\/?$/, "/");
+      return root + "activate.html?biz=" + encodeURIComponent(slug);
+    }
+    // Legacy default: nested v1/ style (3 levels up from page)
     return "../../../activate.html?biz=" + encodeURIComponent(slug);
   }
 
@@ -51,16 +58,20 @@
   chrome.className = "ws-chrome";
   chrome.setAttribute("role", "banner");
   chrome.innerHTML =
-    '<div class="ws-chrome-top">' +
-      '<span class="ws-badge">Private preview</span>' +
-      '<span class="ws-timer" data-ws-timer aria-live="polite">—</span>' +
-    "</div>" +
-    '<p class="ws-copy">A private rebuild for <strong>' +
-      name.replace(/</g, "&lt;") +
-    "</strong>. Not a live site — claim it before this preview expires.</p>" +
-    '<a class="ws-activate" data-ws-activate href="' +
-      activateHref() +
-    '">Activate this site — $99/mo</a>';
+    '<div class="ws-chrome-inner">' +
+      '<div class="ws-chrome-copyblock">' +
+        '<div class="ws-chrome-top">' +
+          '<span class="ws-badge">Private preview</span>' +
+          '<span class="ws-timer" data-ws-timer aria-live="polite">—</span>' +
+        "</div>" +
+        '<p class="ws-copy">A private rebuild for <strong>' +
+          name.replace(/</g, "&lt;") +
+        "</strong>. Not a live site — claim it before this preview expires.</p>" +
+      "</div>" +
+      '<a class="ws-activate" data-ws-activate href="' +
+        activateHref() +
+      '">Activate this site — $99/mo</a>' +
+    "</div>";
 
   body.insertBefore(chrome, body.firstChild);
   body.classList.add("ws-has-chrome");
@@ -82,7 +93,15 @@
       if (target) {
         e.preventDefault();
         target.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        e.preventDefault();
+        window.location.href = activateHref();
       }
     });
+  });
+
+  // Any in-page .ws-activate-link mirrors chrome Activate destination
+  document.querySelectorAll("[data-ws-activate-link]").forEach(function (a) {
+    a.setAttribute("href", activateHref());
   });
 })();
