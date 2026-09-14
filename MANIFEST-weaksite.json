@@ -12,7 +12,7 @@
     "css": "shared/preview-chrome.css",
     "js": "shared/preview-chrome.js"
   },
-  "gold_bar_reference": "previews/lgsl-mechanical/",
+  "gold_bar_reference": "lgsl-mechanical/",
   "protected_untouched": [
     "levine-law"
   ],
@@ -23,7 +23,7 @@
       "phone": "(734) 258-4963",
       "phoneTel": "+17342584963",
       "sourceUrl": "https://sites.google.com/view/lgslmechanicalllc/home",
-      "path": "previews/lgsl-mechanical/",
+      "path": "lgsl-mechanical/",
       "market": "Downriver / Metro Detroit, MI",
       "cat": "hvac",
       "notes": "WORLD-CLASS multi-page stamp (Home/Services/Contact). site.json + shared/stamp/shell.css + brand.css.",
@@ -32,9 +32,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/lgsl-mechanical/index.html",
-        "previews/lgsl-mechanical/services/index.html",
-        "previews/lgsl-mechanical/contact/index.html"
+        "lgsl-mechanical/index.html",
+        "lgsl-mechanical/services/index.html",
+        "lgsl-mechanical/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -45,7 +45,7 @@
       "phone": "(216) 382-3232",
       "phoneTel": "+12163823232",
       "sourceUrl": "https://www.hardenautobody.com/",
-      "path": "previews/harden-auto-body/",
+      "path": "harden-auto-body/",
       "market": "South Euclid / Cleveland, OH",
       "cat": "auto",
       "notes": "Multi-page LGSL stamp. Replaced Bootstrap/IE8-era sparse bullets with red/black shop brand; address/hours from contact.shtml + listings.",
@@ -54,9 +54,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/harden-auto-body/index.html",
-        "previews/harden-auto-body/services/index.html",
-        "previews/harden-auto-body/contact/index.html"
+        "harden-auto-body/index.html",
+        "harden-auto-body/services/index.html",
+        "harden-auto-body/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -67,7 +67,7 @@
       "phone": "(502) 709-7285",
       "phoneTel": "+15027097285",
       "sourceUrl": "https://www.combsfamilydentistry.net/",
-      "path": "previews/combs-family-dentistry/",
+      "path": "combs-family-dentistry/",
       "market": "Louisville, KY",
       "cat": "dental",
       "notes": "Multi-page LGSL stamp. Replaced Weebly + COVID banner with teal/cream dental brand; Dr. Stacey Combs + Terra Crossing address from scrape.",
@@ -76,9 +76,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/combs-family-dentistry/index.html",
-        "previews/combs-family-dentistry/services/index.html",
-        "previews/combs-family-dentistry/contact/index.html"
+        "combs-family-dentistry/index.html",
+        "combs-family-dentistry/services/index.html",
+        "combs-family-dentistry/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -89,7 +89,7 @@
       "phone": "(312) 578-0303",
       "phoneTel": "+13125780303",
       "sourceUrl": "https://ferrantelaw.com/",
-      "path": "previews/ferrante-law/",
+      "path": "ferrante-law/",
       "market": "Chicago, IL",
       "cat": "legal",
       "notes": "Multi-page LGSL stamp. Replaced HTML 4.01 'Page 1 Name' placeholder with professional Ferrante branding (burgundy/charcoal); copy from live scrape.",
@@ -98,9 +98,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/ferrante-law/index.html",
-        "previews/ferrante-law/services/index.html",
-        "previews/ferrante-law/contact/index.html"
+        "ferrante-law/index.html",
+        "ferrante-law/services/index.html",
+        "ferrante-law/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -111,7 +111,7 @@
       "phone": "(614) 808-1788",
       "phoneTel": "+16148081788",
       "sourceUrl": "https://happyfeetrelaxing.weebly.com/",
-      "path": "previews/happy-feet-relaxing/",
+      "path": "happy-feet-relaxing/",
       "market": "Columbus, OH",
       "cat": "spa",
       "notes": "Multi-page LGSL stamp. Replaced emoji/Weebly table clutter with sage/sand spa brand; Bethel Rd + Carriage Place from scrape.",
@@ -120,9 +120,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/happy-feet-relaxing/index.html",
-        "previews/happy-feet-relaxing/services/index.html",
-        "previews/happy-feet-relaxing/contact/index.html"
+        "happy-feet-relaxing/index.html",
+        "happy-feet-relaxing/services/index.html",
+        "happy-feet-relaxing/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -133,7 +133,7 @@
       "phone": "(403) 863-7149",
       "phoneTel": "+14038637149",
       "sourceUrl": "https://www.cuthbertplumbingcalgary.com/",
-      "path": "previews/cuthbert-plumbing/",
+      "path": "cuthbert-plumbing/",
       "market": "Calgary, AB",
       "cat": "plumbing",
       "notes": "Multi-page LGSL stamp. Replaced Wix 'Play Marquee' unfinished feel with copper/teal trade brand; Navien focus + owner-operator from scrape.",
@@ -142,9 +142,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/cuthbert-plumbing/index.html",
-        "previews/cuthbert-plumbing/services/index.html",
-        "previews/cuthbert-plumbing/contact/index.html"
+        "cuthbert-plumbing/index.html",
+        "cuthbert-plumbing/services/index.html",
+        "cuthbert-plumbing/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -155,7 +155,7 @@
       "phone": "(414) 535-7777",
       "phoneTel": "+14145357777",
       "sourceUrl": "https://www.animalcaremilwaukee.com/",
-      "path": "previews/animal-care-hospital/",
+      "path": "animal-care-hospital/",
       "market": "Milwaukee, WI",
       "cat": "vet",
       "notes": "Multi-page LGSL stamp. Replaced Evona 'Primary button' unfinished UX with forest/gold vet brand; address/hours from schema.org scrape.",
@@ -164,9 +164,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/animal-care-hospital/index.html",
-        "previews/animal-care-hospital/services/index.html",
-        "previews/animal-care-hospital/contact/index.html"
+        "animal-care-hospital/index.html",
+        "animal-care-hospital/services/index.html",
+        "animal-care-hospital/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -177,7 +177,7 @@
       "phone": "(203) 533-5674",
       "phoneTel": "+12035335674",
       "sourceUrl": "https://sites.google.com/site/bdmmechanicalct/bdm-mechanical-ac-heating",
-      "path": "previews/bdm-mechanical/",
+      "path": "bdm-mechanical/",
       "market": "Guilford / New Haven County, CT",
       "cat": "hvac",
       "notes": "Multi-page LGSL stamp. Replaced rashid-law in pilot-10. Deep navy + steel/cyan CT HVAC brand; claim-light from Google Sites scrape. No street address published. William DeMatteo / 22 years / CT certified inspector / 24/7.",
@@ -186,9 +186,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "facts from live Google Sites page; no street address",
       "pages": [
-        "previews/bdm-mechanical/index.html",
-        "previews/bdm-mechanical/services/index.html",
-        "previews/bdm-mechanical/contact/index.html"
+        "bdm-mechanical/index.html",
+        "bdm-mechanical/services/index.html",
+        "bdm-mechanical/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true,
@@ -200,7 +200,7 @@
       "phone": "(03) 6289 5262",
       "phoneTel": "+61362895262",
       "sourceUrl": "https://www.claremontvetsurgery.com.au/",
-      "path": "previews/claremont-vet/",
+      "path": "claremont-vet/",
       "market": "Claremont / Hobart, TAS",
       "cat": "vet",
       "notes": "Multi-page LGSL stamp. Replaced ALL-CAPS Wix DIY + typos with ocean teal Hobart vet brand; Emma/Daniel team copy from scrape (fixed 'our join veterinary team').",
@@ -209,9 +209,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/claremont-vet/index.html",
-        "previews/claremont-vet/services/index.html",
-        "previews/claremont-vet/contact/index.html"
+        "claremont-vet/index.html",
+        "claremont-vet/services/index.html",
+        "claremont-vet/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -222,7 +222,7 @@
       "phone": "(317) 247-1010",
       "phoneTel": "+13172471010",
       "sourceUrl": "http://www.georgelcarricojrdds.com/",
-      "path": "previews/carrico-dds/",
+      "path": "carrico-dds/",
       "market": "Indianapolis, IN",
       "cat": "dental",
       "notes": "Multi-page LGSL stamp. Replaced thin ThemeOfWP one-pager (near-empty nav) with classic blue/gold dental brand; address/hours from scrape.",
@@ -231,9 +231,9 @@
       "max_width": "1120-1180px",
       "scrape_detail": "curl OK",
       "pages": [
-        "previews/carrico-dds/index.html",
-        "previews/carrico-dds/services/index.html",
-        "previews/carrico-dds/contact/index.html"
+        "carrico-dds/index.html",
+        "carrico-dds/services/index.html",
+        "carrico-dds/contact/index.html"
       ],
       "ia": "multi-page",
       "stamp": true
@@ -252,7 +252,7 @@
     ]
   },
   "stamp": {
-    "reference": "previews/lgsl-mechanical/",
+    "reference": "lgsl-mechanical/",
     "docs": "TEMPLATES.md",
     "shared": [
       "shared/preview-chrome.css",

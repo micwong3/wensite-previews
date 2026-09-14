@@ -1,7 +1,9 @@
 # Wensite stamp — multi-page template
 
 This is the **Project Wensite** stamp for high-volume lead previews.
-Gold stamp lead: **`previews/lgsl-mechanical/`** (Home · Services · Contact).
+Gold stamp lead: **`lgsl-mechanical/`** (Home · Services · Contact).
+
+Hosted at **`https://sitesremade.com/<slug>/`** (custom domain, site root). Activate stays at `/activate.html?biz=<slug>`.
 
 ## Goals
 
@@ -14,7 +16,7 @@ Gold stamp lead: **`previews/lgsl-mechanical/`** (Home · Services · Contact).
 ## Folder layout
 
 ```
-previews/<slug>/
+<slug>/                     # repo root (clean URL /<slug>/)
   index.html              # Home
   services/index.html     # Services
   contact/index.html      # Contact
@@ -27,34 +29,38 @@ shared/
   stamp/shell.css         # Reusable site header/footer/cards/buttons
 ```
 
-Relative paths must work on GitHub Pages under:
+Relative paths must work on GitHub Pages at site root:
 
-`/wensite-previews/previews/<slug>/`
+`https://sitesremade.com/<slug>/`
+
+- Home (`<slug>/index.html`): `../shared/…`, `../assets/photos/<slug>-hero.jpg`
+- Nested (`<slug>/services/` and `contact/`): `../../shared/…`
+
+Do **not** nest new stamps under `previews/` (that prefix is only for older v1/v2/v3 batches).
 
 ## Stamp a new lead (checklist)
 
-1. **Copy** `previews/lgsl-mechanical/` → `previews/<new-slug>/`
+1. **Copy** `lgsl-mechanical/` → `<new-slug>/`
 2. **Edit `site.json`**
    - `slug`, `name`, `phone`, `phoneTel`, `market`, `tagline`, `sourceUrl`
    - `services[]` from scrape only
    - `proof[]`, `about`, `tokens`
 3. **Swap hero**
    - Place photo at `assets/photos/<slug>-hero.jpg`
-   - Update `site.json` → `heroPhoto` and `<img src>` on Home
+   - Update `site.json` → `heroPhoto` (`../assets/photos/<slug>-hero.jpg`) and `<img src>` on Home
 4. **Update `brand.css`**
    - Map `tokens` → `:root` CSS variables (ink, accent, fonts)
 5. **Find/replace in the three HTML files**
    - Business name, phone, `tel:` links, market copy
    - `data-preview-slug`, `data-preview-name`, `data-activate-href`, `data-ws-root`
-   - Nav + footer Activate links
+   - Nav + footer Activate links (`/<slug>/`, `/<slug>/services/`, `/<slug>/contact/`)
 6. **Wire Activate**
-   - Home: `data-activate-href="../../activate.html?biz=<slug>"` and `data-ws-root="../../"`
-   - Nested pages: `../../../activate.html?biz=<slug>` and `data-ws-root="../../../"`
-   - Add slug → display name in `activate.html` `names` map
+   - Every page: `data-activate-href="/activate.html?biz=<slug>"` and `data-ws-root="/"`
+   - Add slug → display name in `activate.html` `names` map (and `rootSlugs` so Back works)
 7. **Verify**
    - Open Home, Services, Contact locally
    - Chrome Activate + countdown on every page
-   - Relative CSS/JS/photo paths resolve under `/wensite-previews/`
+   - Relative CSS/JS/photo paths resolve at site root
    - No invented claims vs scrape
 
 ## Activate wiring
