@@ -1,0 +1,62 @@
+{
+  "slug": "allen-plumbing-hvac",
+  "name": "Allen Plumbing Heating & Cooling",
+  "shortName": "Allen Plumbing Heating & Cooling",
+  "phone": "(816) 845-0146",
+  "phoneTel": "+18168450146",
+  "market": "Shawnee, KS",
+  "tagline": "Plumbing & HVAC \u00b7 Shawnee, KS",
+  "sourceUrl": "https://allenplumbingheatingandcooling.weebly.com/",
+  "heroPhoto": "../assets/photos/allen-plumbing-hvac-hero.jpg",
+  "heroPhotoAlt": "Allen Plumbing Heating & Cooling preview hero",
+  "claimLight": true,
+  "proof": [
+    "Shawnee, KS",
+    "Plumbing & HVAC",
+    "AC & furnace repair"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+18168450146"
+  },
+  "services": [
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing service for Shawnee and nearby areas."
+    },
+    {
+      "title": "HVAC service",
+      "blurb": "Heating and cooling service."
+    },
+    {
+      "title": "AC repair",
+      "blurb": "Air conditioning repair."
+    },
+    {
+      "title": "Furnace repair",
+      "blurb": "Furnace repair and seasonal maintenance."
+    }
+  ],
+  "about": {
+    "headline": "Allen Plumbing Heating & Cooling",
+    "body": "Allen Plumbing Heating & Cooling \u2014 Shawnee, KS."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0f2438",
+    "accent": "#0369a1",
+    "accentSoft": "#38bdf8",
+    "paper": "#f0f5f9",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly SEO wall; plumber/HVAC/AC/furnace keywords. Claim-light on credentials.",
+  "batch": "keepers-25"
+}

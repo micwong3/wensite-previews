@@ -1,0 +1,58 @@
+{
+  "slug": "reliable-heating-cooling-mi",
+  "name": "Reliable Heating & Cooling",
+  "shortName": "Reliable Heating & Cooling",
+  "phone": "(616) 649-8079",
+  "phoneTel": "+16166498079",
+  "market": "Hudsonville, MI",
+  "tagline": "HVAC \u00b7 Hudsonville, MI",
+  "sourceUrl": "https://reliableheatingus.weebly.com/",
+  "heroPhoto": "../assets/photos/reliable-heating-cooling-mi-hero.jpg",
+  "heroPhotoAlt": "Reliable Heating & Cooling preview hero",
+  "claimLight": true,
+  "proof": [
+    "Hudsonville, MI",
+    "Heating & cooling",
+    "Call for service"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+16166498079"
+  },
+  "services": [
+    {
+      "title": "Heating",
+      "blurb": "Heating service for Hudsonville-area customers."
+    },
+    {
+      "title": "Cooling",
+      "blurb": "Cooling and air conditioning work."
+    },
+    {
+      "title": "HVAC service",
+      "blurb": "General HVAC \u2014 call for details."
+    }
+  ],
+  "about": {
+    "headline": "Reliable Heating & Cooling",
+    "body": "Reliable Heating & Cooling \u2014 Hudsonville, MI."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0c2340",
+    "accent": "#2563eb",
+    "accentSoft": "#60a5fa",
+    "paper": "#f0f4fa",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Directory-spam Weebly \u2014 claim-light.",
+  "batch": "keepers-25"
+}

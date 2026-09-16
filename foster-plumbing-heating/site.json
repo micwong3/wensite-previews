@@ -1,0 +1,62 @@
+{
+  "slug": "foster-plumbing-heating",
+  "name": "Foster Plumbing & Heating",
+  "shortName": "Foster Plumbing & Heating",
+  "phone": "(804) 215-1300",
+  "phoneTel": "+18042151300",
+  "market": "Richmond, VA",
+  "tagline": "Plumbing & HVAC \u00b7 Richmond, VA",
+  "sourceUrl": "https://sites.google.com/view/hvac-repair--near-me/home",
+  "heroPhoto": "../assets/photos/foster-plumbing-heating-hero.jpg",
+  "heroPhotoAlt": "Foster Plumbing & Heating preview hero",
+  "claimLight": true,
+  "proof": [
+    "Richmond, VA",
+    "Plumbing & HVAC",
+    "Maintenance & repair"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+18042151300"
+  },
+  "services": [
+    {
+      "title": "Plumbing service",
+      "blurb": "Plumbing maintenance and repair for Richmond homes."
+    },
+    {
+      "title": "HVAC repair",
+      "blurb": "Heating and cooling system repair."
+    },
+    {
+      "title": "Professional maintenance",
+      "blurb": "Maintenance to avoid costly repairs."
+    },
+    {
+      "title": "Residential comfort",
+      "blurb": "Plumbing and HVAC as interconnected home systems."
+    }
+  ],
+  "about": {
+    "headline": "Foster Plumbing & Heating",
+    "body": "Plumbing and HVAC contractor serving Richmond, VA."
+  },
+  "address": "11301 Business Center Dr",
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1c1917",
+    "accent": "#b45309",
+    "accentSoft": "#f59e0b",
+    "paper": "#faf6f1",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Google Sites blog-style SEO; plumbing+HVAC. Thin on specifics \u2014 claim-light.",
+  "batch": "keepers-25"
+}

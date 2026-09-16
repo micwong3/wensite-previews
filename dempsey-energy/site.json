@@ -1,0 +1,66 @@
+{
+  "slug": "dempsey-energy",
+  "name": "Dempsey Energy",
+  "shortName": "Dempsey Energy",
+  "phone": "(617) 469-4144",
+  "phoneTel": "+16174694144",
+  "market": "North Attleborough, MA",
+  "tagline": "HVAC & plumbing \u00b7 North Attleborough, MA",
+  "sourceUrl": "https://dempseyenergy.weebly.com/",
+  "heroPhoto": "../assets/photos/dempsey-energy-hero.jpg",
+  "heroPhotoAlt": "Dempsey Energy preview hero",
+  "claimLight": true,
+  "proof": [
+    "North Attleborough, MA",
+    "HVAC & plumbing",
+    "Maintenance to installs"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+16174694144"
+  },
+  "services": [
+    {
+      "title": "HVAC maintenance",
+      "blurb": "Maintenance to keep systems working year-round."
+    },
+    {
+      "title": "System installations",
+      "blurb": "Complete HVAC system installations."
+    },
+    {
+      "title": "Air conditioning repair",
+      "blurb": "Cooling and AC repair."
+    },
+    {
+      "title": "Furnace repair",
+      "blurb": "Furnace repair and seasonal tune-ups."
+    },
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing services as listed on the live site."
+    }
+  ],
+  "about": {
+    "headline": "Dempsey Energy",
+    "body": "HVAC contractor in North Attleborough, MA \u2014 maintenance, installs, AC and furnace repair, plumbing."
+  },
+  "address": "575 E Washington Street",
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#132a1f",
+    "accent": "#059669",
+    "accentSoft": "#34d399",
+    "paper": "#f0f7f3",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly SEO-heavy; services HVAC/plumbing/AC/furnace. Address mentioned. Claim-light on credentials.",
+  "batch": "keepers-25"
+}

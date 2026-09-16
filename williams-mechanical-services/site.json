@@ -1,0 +1,58 @@
+{
+  "slug": "williams-mechanical-services",
+  "name": "Williams Mechanical Services, LLC",
+  "shortName": "Williams Mechanical Services",
+  "phone": "(918) 906-9938",
+  "phoneTel": "+19189069938",
+  "market": "Bristow, OK",
+  "tagline": "Plumbing & HVAC \u00b7 Bristow, OK",
+  "sourceUrl": "https://williamsmechanicalservicesplumbingandhvac.weebly.com/contact.html",
+  "heroPhoto": "../assets/photos/williams-mechanical-services-hero.jpg",
+  "heroPhotoAlt": "Williams Mechanical Services preview hero",
+  "claimLight": true,
+  "proof": [
+    "Bristow, OK",
+    "Plumbing & HVAC",
+    "P.O. Box published"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+19189069938"
+  },
+  "services": [
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing service for Bristow-area customers."
+    },
+    {
+      "title": "HVAC",
+      "blurb": "Heating and cooling / HVAC work."
+    },
+    {
+      "title": "Mechanical service",
+      "blurb": "Mechanical trade work \u2014 call for details."
+    }
+  ],
+  "about": {
+    "headline": "Williams Mechanical Services",
+    "body": "Williams Mechanical Services, LLC \u2014 Bristow, OK."
+  },
+  "address": "P.O. Box 629, Bristow, OK 74010",
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1b1b1e",
+    "accent": "#b91c1c",
+    "accentSoft": "#f87171",
+    "paper": "#f8f4f3",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Bare Weebly contact; PO Box published. Claim-light.",
+  "batch": "keepers-25"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "bpm-heating-cooling",
+  "name": "BPM Heating, Cooling & Plumbing",
+  "shortName": "BPM Heating, Cooling & Plumbing",
+  "phone": "(240) 200-0887",
+  "phoneTel": "+12402000887",
+  "market": "Frederick, MD",
+  "tagline": "HVAC & plumbing \u00b7 Frederick, MD",
+  "sourceUrl": "https://bpmheating.weebly.com/",
+  "heroPhoto": "../assets/photos/bpm-heating-cooling-hero.jpg",
+  "heroPhotoAlt": "BPM Heating, Cooling & Plumbing preview hero",
+  "claimLight": true,
+  "proof": [
+    "Frederick, MD",
+    "Family-owned",
+    "Free quote"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+12402000887"
+  },
+  "services": [
+    {
+      "title": "Heating",
+      "blurb": "Heating service for Frederick-area homes and businesses."
+    },
+    {
+      "title": "Cooling",
+      "blurb": "Cooling and AC work."
+    },
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing services alongside HVAC."
+    },
+    {
+      "title": "Indoor air quality",
+      "blurb": "Indoor air quality solutions as listed on the live site."
+    },
+    {
+      "title": "Residential & commercial",
+      "blurb": "Serving both residential and commercial clients."
+    }
+  ],
+  "about": {
+    "headline": "BPM Heating, Cooling & Plumbing",
+    "body": "Trusted family-owned HVAC and plumbing company based in Frederick, MD."
+  },
+  "address": "300 E 4th St Unit A, Frederick, MD",
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a2332",
+    "accent": "#d97706",
+    "accentSoft": "#fbbf24",
+    "paper": "#f7f3ee",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly: address 300 E 4th St, HVAC+plumbing+IAQ, free quote. No hours/prices.",
+  "batch": "keepers-25"
+}

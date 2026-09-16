@@ -1,0 +1,62 @@
+{
+  "slug": "hofmeister-plumbing",
+  "name": "H. Hofmeister & Co. Inc.",
+  "shortName": "H. Hofmeister & Co.",
+  "phone": "(201) 666-1118",
+  "phoneTel": "+12016661118",
+  "market": "Westwood, NJ",
+  "tagline": "Plumbing, heating, AC & sewer \u00b7 Westwood, NJ",
+  "sourceUrl": "https://sites.google.com/view/hofmeisterplumbing/home",
+  "heroPhoto": "../assets/photos/hofmeister-plumbing-hero.jpg",
+  "heroPhotoAlt": "H. Hofmeister & Co. preview hero",
+  "claimLight": true,
+  "proof": [
+    "60+ years",
+    "Bergen County",
+    "Plumbing \u00b7 HVAC \u00b7 Sewer"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+12016661118"
+  },
+  "services": [
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing professionals serving Westwood and nearby Bergen County towns."
+    },
+    {
+      "title": "HVAC repairs & system installations",
+      "blurb": "Heating and AC repairs and system installs."
+    },
+    {
+      "title": "Drain cleaning",
+      "blurb": "Clogged drain service."
+    },
+    {
+      "title": "Sewer services",
+      "blurb": "Sewer backup and sewer service work."
+    }
+  ],
+  "about": {
+    "headline": "H. Hofmeister & Co.",
+    "body": "H. Hofmeister & Co. Inc. \u2014 plumbing, heating, AC, and sewer in Bergen County, NJ."
+  },
+  "address": "115 Bergenline Ave, Westwood, NJ",
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#16131a",
+    "accent": "#7e22ce",
+    "accentSoft": "#c084fc",
+    "paper": "#f6f2fa",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Google Sites: plumbing/HVAC/drain/sewer, 60 years, address. Towns listed.",
+  "batch": "keepers-25"
+}

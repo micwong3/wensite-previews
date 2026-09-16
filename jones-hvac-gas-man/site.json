@@ -1,0 +1,70 @@
+{
+  "slug": "jones-hvac-gas-man",
+  "name": "Jones Heating and Cooling / Plumbing LLC The Gas Man",
+  "shortName": "Jones HVAC / The Gas Man",
+  "phone": "(276) 209-3914",
+  "phoneTel": "+12762093914",
+  "market": "New Brighton, PA",
+  "tagline": "HVAC, plumbing & gas \u00b7 New Brighton, PA",
+  "sourceUrl": "https://jonesplumbingheati.wixsite.com/hvac-contractor",
+  "heroPhoto": "../assets/photos/jones-hvac-gas-man-hero.jpg",
+  "heroPhotoAlt": "Jones HVAC / The Gas Man preview hero",
+  "claimLight": true,
+  "proof": [
+    "HVAC contractor",
+    "Gas line work",
+    "Heating repair"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+12762093914"
+  },
+  "services": [
+    {
+      "title": "HVAC service",
+      "blurb": "Residential HVAC service."
+    },
+    {
+      "title": "Heating repair",
+      "blurb": "Heating repair as listed on the live site."
+    },
+    {
+      "title": "Gas line installation",
+      "blurb": "Gas line installation."
+    },
+    {
+      "title": "Gas line repair",
+      "blurb": "Gas line repair."
+    },
+    {
+      "title": "Fireplace repair & installation",
+      "blurb": "Fireplace repair and installation."
+    },
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing alongside HVAC and gas work."
+    }
+  ],
+  "about": {
+    "headline": "Jones HVAC / The Gas Man",
+    "body": "HVAC, plumbing, and gas contractor \u2014 The Gas Man."
+  },
+  "address": null,
+  "hours": null,
+  "email": "jonesplumbingheatingthegasman@getnada.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a1510",
+    "accent": "#dc2626",
+    "accentSoft": "#f87171",
+    "paper": "#faf5f3",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Wix unfinished; SF template junk stripped. Services: HVAC, heating, gas lines, fireplace. Email is getnada disposable.",
+  "batch": "keepers-25"
+}

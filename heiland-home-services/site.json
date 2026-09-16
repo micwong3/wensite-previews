@@ -1,0 +1,74 @@
+{
+  "slug": "heiland-home-services",
+  "name": "Heiland Home Services",
+  "shortName": "Heiland Home Services",
+  "phone": "(215) 990-7408",
+  "phoneTel": "+12159907408",
+  "market": "Hatfield, PA",
+  "tagline": "Plumbing \u00b7 Hatfield, PA",
+  "sourceUrl": "https://heilandservices.weebly.com/",
+  "heroPhoto": "../assets/photos/heiland-home-services-hero.jpg",
+  "heroPhotoAlt": "Heiland Home Services preview hero",
+  "claimLight": true,
+  "proof": [
+    "Hatfield, PA",
+    "Plumbing specialists",
+    "Hours published"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+12159907408"
+  },
+  "services": [
+    {
+      "title": "Plumbing inspections",
+      "blurb": "Plumbing inspections for Hatfield-area homes."
+    },
+    {
+      "title": "Clogged drain repairs",
+      "blurb": "Drain clog repair."
+    },
+    {
+      "title": "Sewer maintenance",
+      "blurb": "Sewer maintenance work."
+    },
+    {
+      "title": "Water heater services",
+      "blurb": "Water heater service."
+    },
+    {
+      "title": "Video inspections",
+      "blurb": "Video inspection services."
+    },
+    {
+      "title": "Sump pump repairs",
+      "blurb": "Sump pump repair."
+    },
+    {
+      "title": "Well pump solutions",
+      "blurb": "Well pump solutions."
+    }
+  ],
+  "about": {
+    "headline": "Heiland Home Services",
+    "body": "Heiland Home Services \u2014 Hatfield, PA plumbing."
+  },
+  "address": "1713 Keystone Dr, Hatfield, PA 19440",
+  "hours": "Mon-Fri: 6:30 AM\u20138:00 PM | Sat: 8:30 AM\u20133:30 PM | Sun: Closed",
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#102820",
+    "accent": "#0f766e",
+    "accentSoft": "#5eead4",
+    "paper": "#f0f7f5",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly directory blurb with real services, address, hours. Strong scrape.",
+  "batch": "keepers-25"
+}

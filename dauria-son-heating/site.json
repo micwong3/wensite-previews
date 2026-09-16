@@ -1,0 +1,70 @@
+{
+  "slug": "dauria-son-heating",
+  "name": "D'Auria & Son Heating and Air",
+  "shortName": "D'Auria & Son Heating and Air",
+  "phone": "(856) 257-1092",
+  "phoneTel": "+18562571092",
+  "market": "Blackwood, NJ",
+  "tagline": "HVAC & plumbing \u00b7 South Jersey",
+  "sourceUrl": "https://sites.google.com/view/dauriasonheating/",
+  "heroPhoto": "../assets/photos/dauria-son-heating-hero.jpg",
+  "heroPhotoAlt": "D'Auria & Son Heating and Air preview hero",
+  "claimLight": true,
+  "proof": [
+    "Open 24/7 service",
+    "South Jersey",
+    "Free estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+18562571092"
+  },
+  "services": [
+    {
+      "title": "Furnace installation",
+      "blurb": "Furnace installs as listed on the live site."
+    },
+    {
+      "title": "Furnace maintenance & repair",
+      "blurb": "Furnace maintenance and repair."
+    },
+    {
+      "title": "A/C repair & installation",
+      "blurb": "Air conditioning repair and installation."
+    },
+    {
+      "title": "Heating repair",
+      "blurb": "Heating repair for South Jersey homes."
+    },
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing alongside HVAC work."
+    },
+    {
+      "title": "Free estimates",
+      "blurb": "Call for a free estimate and quote."
+    }
+  ],
+  "about": {
+    "headline": "D'Auria & Son Heating and Air",
+    "body": "HVAC, AC repair, heating repair, and plumbing serving South Jersey counties."
+  },
+  "address": "26 Evergreen Ave, Blackwood, NJ 08012",
+  "hours": "Open 24/7 Service (as published)",
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0f2744",
+    "accent": "#e11d48",
+    "accentSoft": "#fb7185",
+    "paper": "#f5f0f1",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Google Sites directory-style: address, 24/7, counties, furnace/AC/plumbing keywords.",
+  "batch": "keepers-25"
+}

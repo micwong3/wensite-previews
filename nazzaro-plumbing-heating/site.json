@@ -1,0 +1,66 @@
+{
+  "slug": "nazzaro-plumbing-heating",
+  "name": "Nazzaro Plumbing & Heating",
+  "shortName": "Nazzaro Plumbing & Heating",
+  "phone": "(978) 256-3586",
+  "phoneTel": "+19782563586",
+  "market": "Chelmsford, MA",
+  "tagline": "Plumbing, heating, AC & bath remodeling \u00b7 Chelmsford, MA",
+  "sourceUrl": "https://nazzaroplumbing.weebly.com/",
+  "heroPhoto": "../assets/photos/nazzaro-plumbing-heating-hero.jpg",
+  "heroPhotoAlt": "Nazzaro Plumbing & Heating preview hero",
+  "claimLight": true,
+  "proof": [
+    "24/7 plumbing repair",
+    "Chelmsford, MA",
+    "Residential & commercial"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+19782563586"
+  },
+  "services": [
+    {
+      "title": "Plumbing repair & replacement",
+      "blurb": "24/7 plumbing repair and replacement."
+    },
+    {
+      "title": "Heating",
+      "blurb": "Heating service."
+    },
+    {
+      "title": "Air conditioning",
+      "blurb": "Air conditioning service."
+    },
+    {
+      "title": "Bathroom remodeling",
+      "blurb": "Bathroom remodeling."
+    },
+    {
+      "title": "Residential & commercial",
+      "blurb": "Active in residential and commercial service markets."
+    }
+  ],
+  "about": {
+    "headline": "Nazzaro Plumbing & Heating",
+    "body": "Nazzaro Plumbing & Heating \u2014 Chelmsford, MA full-service plumbing, heating, AC, and bath remodeling."
+  },
+  "address": "145 Stedman Street, Chelmsford, MA 01824",
+  "hours": "Plumbing repair 24 hours a day, 7 days a week (as published)",
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#141410",
+    "accent": "#b45309",
+    "accentSoft": "#fbbf24",
+    "paper": "#f8f5ef",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly: address, 24/7 plumbing, heating/AC/bath remodel, residential+commercial.",
+  "batch": "keepers-25"
+}

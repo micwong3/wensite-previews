@@ -1,0 +1,58 @@
+{
+  "slug": "lawes-company",
+  "name": "Lawes Company",
+  "shortName": "Lawes Company",
+  "phone": "(732) 741-6300",
+  "phoneTel": "+17327416300",
+  "market": "Monmouth / Ocean County, NJ",
+  "tagline": "Trade services \u00b7 Monmouth / Ocean County, NJ",
+  "sourceUrl": "https://lawescompany.weebly.com/about.html",
+  "heroPhoto": "../assets/photos/lawes-company-hero.jpg",
+  "heroPhotoAlt": "Lawes Company preview hero",
+  "claimLight": true,
+  "proof": [
+    "Monmouth / Ocean County",
+    "Local company",
+    "Call to discuss"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+17327416300"
+  },
+  "services": [
+    {
+      "title": "Heating",
+      "blurb": "Heating-related service for the local area."
+    },
+    {
+      "title": "Cooling",
+      "blurb": "Cooling-related service."
+    },
+    {
+      "title": "Trade work",
+      "blurb": "Call to discuss the work your property needs."
+    }
+  ],
+  "about": {
+    "headline": "Lawes Company",
+    "body": "Lawes Company \u2014 Monmouth / Ocean County, NJ. Sparse live site; claim-light preview."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0f172a",
+    "accent": "#0d9488",
+    "accentSoft": "#5eead4",
+    "paper": "#f0f7f6",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly about-only \u2014 extremely thin. Claim-light.",
+  "batch": "keepers-25"
+}

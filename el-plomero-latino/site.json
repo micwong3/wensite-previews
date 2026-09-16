@@ -1,0 +1,58 @@
+{
+  "slug": "el-plomero-latino",
+  "name": "El Plomero Latino Inc",
+  "shortName": "El Plomero Latino",
+  "phone": "(407) 362-7654",
+  "phoneTel": "+14073627654",
+  "market": "Orlando, FL",
+  "tagline": "Plumbing \u00b7 Orlando, FL",
+  "sourceUrl": "https://sites.google.com/view/elplomerolatino/home",
+  "heroPhoto": "../assets/photos/el-plomero-latino-hero.jpg",
+  "heroPhotoAlt": "El Plomero Latino preview hero",
+  "claimLight": true,
+  "proof": [
+    "Open 24 hours",
+    "Family-owned",
+    "Orlando, FL"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+14073627654"
+  },
+  "services": [
+    {
+      "title": "Full-service plumbing",
+      "blurb": "Quality professional plumbing as described on the live listing."
+    },
+    {
+      "title": "24-hour availability",
+      "blurb": "Open 24 hours as published."
+    },
+    {
+      "title": "Residential plumbing",
+      "blurb": "Plumbing for Orlando-area customers."
+    }
+  ],
+  "about": {
+    "headline": "El Plomero Latino",
+    "body": "El Plomero Latino Inc. \u2014 full-service family-owned plumbing in Orlando, FL."
+  },
+  "address": "115 Crossbryn Ct, Orlando, FL 32807",
+  "hours": "Open 24 Hours (as published)",
+  "email": "Elplomerolatino@gmail.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0f2f1f",
+    "accent": "#16a34a",
+    "accentSoft": "#4ade80",
+    "paper": "#f1f8f4",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Google Sites directory dump: address, email, 24h, family-owned. Thin service detail.",
+  "batch": "keepers-25"
+}

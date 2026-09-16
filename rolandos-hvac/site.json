@@ -1,0 +1,58 @@
+{
+  "slug": "rolandos-hvac",
+  "name": "Rolando's HVAC, LLC",
+  "shortName": "Rolando's HVAC",
+  "phone": "(813) 373-6804",
+  "phoneTel": "+18133736804",
+  "market": "Tampa, FL",
+  "tagline": "HVAC \u00b7 Tampa, FL",
+  "sourceUrl": "https://rolandoshvac.weebly.com/",
+  "heroPhoto": "../assets/photos/rolandos-hvac-hero.jpg",
+  "heroPhotoAlt": "Rolando's HVAC preview hero",
+  "claimLight": true,
+  "proof": [
+    "Tampa, FL",
+    "HVAC",
+    "Call for service"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+18133736804"
+  },
+  "services": [
+    {
+      "title": "Heating",
+      "blurb": "Heating service for Tampa-area customers."
+    },
+    {
+      "title": "Cooling / AC",
+      "blurb": "Air conditioning and cooling work."
+    },
+    {
+      "title": "HVAC service",
+      "blurb": "General HVAC \u2014 call for details."
+    }
+  ],
+  "about": {
+    "headline": "Rolando's HVAC",
+    "body": "Rolando's HVAC, LLC \u2014 Tampa, FL."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a0f0a",
+    "accent": "#c2410c",
+    "accentSoft": "#fb923c",
+    "paper": "#faf6f2",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "SEO filler Weebly \u2014 claim-light.",
+  "batch": "keepers-25"
+}

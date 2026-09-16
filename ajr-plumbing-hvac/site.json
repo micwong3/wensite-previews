@@ -1,0 +1,66 @@
+{
+  "slug": "ajr-plumbing-hvac",
+  "name": "AJR Plumbing & HVAC, Inc.",
+  "shortName": "AJR Plumbing & HVAC",
+  "phone": "(508) 587-9563",
+  "phoneTel": "+15085879563",
+  "market": "Avon, MA",
+  "tagline": "Heating, AC & plumbing \u00b7 Massachusetts",
+  "sourceUrl": "https://www.ajrplumbinghvacma.com/",
+  "heroPhoto": "../assets/photos/ajr-plumbing-hvac-hero.jpg",
+  "heroPhotoAlt": "AJR Plumbing & HVAC preview hero",
+  "claimLight": true,
+  "proof": [
+    "Since 1970",
+    "Family owned",
+    "MA service area"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+15085879563"
+  },
+  "services": [
+    {
+      "title": "Air conditioning",
+      "blurb": "AC repair and installation for Massachusetts properties."
+    },
+    {
+      "title": "Heating systems",
+      "blurb": "Heating system repair and installation."
+    },
+    {
+      "title": "Plumbing systems",
+      "blurb": "Residential and light commercial plumbing work."
+    },
+    {
+      "title": "Emergency repairs",
+      "blurb": "Technicians equipped for emergency repairs and upgrades."
+    },
+    {
+      "title": "Installs & upgrades",
+      "blurb": "Call for a project quote on installs and upgrades."
+    }
+  ],
+  "about": {
+    "headline": "AJR Plumbing & HVAC",
+    "body": "Family-owned HVAC and plumbing contractor serving Massachusetts since 1970."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0c1f2e",
+    "accent": "#c45c26",
+    "accentSoft": "#e8a87c",
+    "paper": "#f4f1ec",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly: Heating/AC/Plumbing, family owned since 1970, MA. No hours/prices published.",
+  "batch": "keepers-25"
+}

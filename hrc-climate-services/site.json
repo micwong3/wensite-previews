@@ -1,0 +1,78 @@
+{
+  "slug": "hrc-climate-services",
+  "name": "HRC Climate Services Heating and Cooling",
+  "shortName": "HRC Climate Services",
+  "phone": "(385) 332-3293",
+  "phoneTel": "+13853323293",
+  "market": "Spanish Fork, UT",
+  "tagline": "Heating & cooling \u00b7 Spanish Fork, UT",
+  "sourceUrl": "https://sites.google.com/view/hrcclimateservices/home/",
+  "heroPhoto": "../assets/photos/hrc-climate-services-hero.jpg",
+  "heroPhotoAlt": "HRC Climate Services preview hero",
+  "claimLight": true,
+  "proof": [
+    "Family-owned",
+    "Residential & commercial",
+    "Spanish Fork, UT"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+13853323293"
+  },
+  "services": [
+    {
+      "title": "AC installation & repair",
+      "blurb": "Residential air conditioning installs and repairs."
+    },
+    {
+      "title": "Furnace installation & repair",
+      "blurb": "Furnace installs and repairs."
+    },
+    {
+      "title": "Heat pump installation & repair",
+      "blurb": "Heat pump installs and repairs."
+    },
+    {
+      "title": "HVAC maintenance",
+      "blurb": "Ongoing HVAC maintenance."
+    },
+    {
+      "title": "Humidification",
+      "blurb": "Humidification services."
+    },
+    {
+      "title": "Ductless mini-splits",
+      "blurb": "Ductless mini-split systems."
+    },
+    {
+      "title": "Indoor air quality",
+      "blurb": "Indoor air quality solutions."
+    },
+    {
+      "title": "Commercial HVAC & refrigeration",
+      "blurb": "Commercial HVAC, refrigeration, rooftop units, and new construction as listed."
+    }
+  ],
+  "about": {
+    "headline": "HRC Climate Services",
+    "body": "Family-owned HVAC company in Spanish Fork, UT \u2014 residential and commercial heating and cooling."
+  },
+  "address": "1825 N Main St #4, Spanish Fork, UT",
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0b1f33",
+    "accent": "#0284c7",
+    "accentSoft": "#38bdf8",
+    "paper": "#f1f6fa",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Rich Google Sites nav: residential AC/furnace/heat pump/IAQ + commercial refrigeration. Address published.",
+  "batch": "keepers-25"
+}

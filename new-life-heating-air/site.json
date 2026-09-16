@@ -1,0 +1,58 @@
+{
+  "slug": "new-life-heating-air",
+  "name": "New Life Heating and Air LLC",
+  "shortName": "New Life Heating and Air",
+  "phone": "(484) 944-1353",
+  "phoneTel": "+14849441353",
+  "market": "Pottstown, PA",
+  "tagline": "HVAC \u00b7 Pottstown, PA",
+  "sourceUrl": "https://justcallnewlife.weebly.com/",
+  "heroPhoto": "../assets/photos/new-life-heating-air-hero.jpg",
+  "heroPhotoAlt": "New Life Heating and Air preview hero",
+  "claimLight": true,
+  "proof": [
+    "Pottstown, PA",
+    "Heating & air",
+    "Call for service"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+14849441353"
+  },
+  "services": [
+    {
+      "title": "Heating",
+      "blurb": "Heating service for the Pottstown area."
+    },
+    {
+      "title": "Air conditioning",
+      "blurb": "Air conditioning service."
+    },
+    {
+      "title": "HVAC service",
+      "blurb": "General heating and air work \u2014 call for details."
+    }
+  ],
+  "about": {
+    "headline": "New Life Heating and Air",
+    "body": "New Life Heating and Air LLC \u2014 Pottstown, PA. Live site is directory-spam style; preview stays claim-light."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1e1b4b",
+    "accent": "#7c3aed",
+    "accentSoft": "#a78bfa",
+    "paper": "#f5f3ff",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly directory-spam \u2014 claim-light.",
+  "batch": "keepers-25"
+}

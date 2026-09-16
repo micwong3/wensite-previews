@@ -1,0 +1,58 @@
+{
+  "slug": "jvm-mechanical",
+  "name": "JV Mechanical Contractor Inc",
+  "shortName": "JV Mechanical",
+  "phone": "(240) 614-6058",
+  "phoneTel": "+12406146058",
+  "market": "Maryland",
+  "tagline": "HVAC contractor \u00b7 Maryland",
+  "sourceUrl": "https://jvmhvac.weebly.com/",
+  "heroPhoto": "../assets/photos/jvm-mechanical-hero.jpg",
+  "heroPhotoAlt": "JV Mechanical preview hero",
+  "claimLight": true,
+  "proof": [
+    "Maryland",
+    "HVAC contractor",
+    "Call to discuss"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+12406146058"
+  },
+  "services": [
+    {
+      "title": "Heating",
+      "blurb": "Heating service for Maryland customers."
+    },
+    {
+      "title": "Cooling / AC",
+      "blurb": "Air conditioning and cooling work."
+    },
+    {
+      "title": "HVAC service",
+      "blurb": "General HVAC contractor service."
+    }
+  ],
+  "about": {
+    "headline": "JV Mechanical",
+    "body": "JV Mechanical Contractor Inc \u2014 Maryland HVAC. Live site is claim-light; call for details."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#111827",
+    "accent": "#4f46e5",
+    "accentSoft": "#818cf8",
+    "paper": "#f3f4f8",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly 'MY SITE' \u2014 very thin. Claim-light services only.",
+  "batch": "keepers-25"
+}

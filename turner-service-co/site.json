@@ -1,0 +1,58 @@
+{
+  "slug": "turner-service-co",
+  "name": "Turner's Service Co",
+  "shortName": "Turner's Service Co",
+  "phone": "(703) 361-0816",
+  "phoneTel": "+17033610816",
+  "market": "Manassas, VA",
+  "tagline": "HVAC \u00b7 Manassas, VA",
+  "sourceUrl": "https://sites.google.com/view/turnersserviceco",
+  "heroPhoto": "../assets/photos/turner-service-co-hero.jpg",
+  "heroPhotoAlt": "Turner's Service Co preview hero",
+  "claimLight": true,
+  "proof": [
+    "Manassas, VA",
+    "HVAC service",
+    "Email published"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+17033610816"
+  },
+  "services": [
+    {
+      "title": "Heating",
+      "blurb": "Heating service for Manassas-area customers."
+    },
+    {
+      "title": "Cooling / AC",
+      "blurb": "Air conditioning and cooling work."
+    },
+    {
+      "title": "HVAC service",
+      "blurb": "General HVAC service as listed on the live site."
+    }
+  ],
+  "about": {
+    "headline": "Turner's Service Co",
+    "body": "Turner's Service Co \u2014 Manassas, VA HVAC."
+  },
+  "address": null,
+  "hours": null,
+  "email": "info@turnersserviceco.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#14213d",
+    "accent": "#fca311",
+    "accentSoft": "#ffd166",
+    "paper": "#f5f3ee",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Google Sites thin HVAC blurbs; email info@turnersserviceco.com published.",
+  "batch": "keepers-25"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "batista-heating-cooling",
+  "name": "Batista Heating & Cooling, LLC",
+  "shortName": "Batista Heating & Cooling",
+  "phone": "(732) 762-3472",
+  "phoneTel": "+17327623472",
+  "market": "Central New Jersey",
+  "tagline": "HVAC \u00b7 Central New Jersey",
+  "sourceUrl": "https://sites.google.com/view/batistaheatingandcooling/home",
+  "heroPhoto": "../assets/photos/batista-heating-cooling-hero.jpg",
+  "heroPhotoAlt": "Batista Heating & Cooling preview hero",
+  "claimLight": true,
+  "proof": [
+    "Central New Jersey",
+    "Residential & commercial",
+    "AC & heating"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+17327623472"
+  },
+  "services": [
+    {
+      "title": "AC maintenance",
+      "blurb": "Keep cooling systems running with scheduled maintenance."
+    },
+    {
+      "title": "AC repair",
+      "blurb": "Air conditioning repair for Central NJ customers."
+    },
+    {
+      "title": "Heating repair & service",
+      "blurb": "Heating system repair and service."
+    },
+    {
+      "title": "Thermostat repair & replacement",
+      "blurb": "Thermostat repair and replacement."
+    }
+  ],
+  "about": {
+    "headline": "Batista Heating & Cooling",
+    "body": "HVAC contractor serving residential and commercial customers in Central New Jersey."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#102a43",
+    "accent": "#2bb0ed",
+    "accentSoft": "#7cc4f0",
+    "paper": "#f0f7fb",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Google Sites sparse: AC maintenance/repair, heating repair, thermostats. Claim-light.",
+  "batch": "keepers-25"
+}

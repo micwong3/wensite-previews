@@ -1,0 +1,62 @@
+{
+  "slug": "moore-bros-commercial",
+  "name": "Moore Brothers Commercial",
+  "shortName": "Moore Brothers Commercial",
+  "phone": "(313) 241-3155",
+  "phoneTel": "+13132413155",
+  "market": "Detroit, MI",
+  "tagline": "Commercial plumbing, heating & cooling \u00b7 Metro Detroit",
+  "sourceUrl": "https://moorebroscommercial.weebly.com/",
+  "heroPhoto": "../assets/photos/moore-bros-commercial-hero.jpg",
+  "heroPhotoAlt": "Moore Brothers Commercial preview hero",
+  "claimLight": true,
+  "proof": [
+    "30+ years",
+    "Master plumbers",
+    "Metro Detroit commercial"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+13132413155"
+  },
+  "services": [
+    {
+      "title": "Commercial plumbing",
+      "blurb": "Industrial and commercial plumbing."
+    },
+    {
+      "title": "Mechanical heating & cooling",
+      "blurb": "Commercial HVAC / mechanical heating and cooling."
+    },
+    {
+      "title": "Industrial plumbing",
+      "blurb": "Industrial plumbing throughout SE Michigan."
+    },
+    {
+      "title": "Metro Detroit commercial",
+      "blurb": "Detroit, Ann Arbor, Royal Oak, Oak Park, Warren, Tri-County."
+    }
+  ],
+  "about": {
+    "headline": "Moore Brothers Commercial",
+    "body": "Moore Brothers Commercial \u2014 master plumbers and commercial contractors in Southeastern Michigan."
+  },
+  "address": "15860 Schaefer Highway, Detroit, MI",
+  "hours": null,
+  "email": "moorebroscommercial@gmail.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0b1220",
+    "accent": "#1d4ed8",
+    "accentSoft": "#60a5fa",
+    "paper": "#f1f4fa",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly: commercial plumbing/HVAC, 30 years, SE MI towns, Schaefer Hwy address. Email from lead.",
+  "batch": "keepers-25"
+}

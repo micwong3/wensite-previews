@@ -1,0 +1,58 @@
+{
+  "slug": "quality-heating-cooling-plumbing",
+  "name": "Quality Heating, Cooling and Plumbing",
+  "shortName": "Quality Heating, Cooling & Plumbing",
+  "phone": "(918) 518-5900",
+  "phoneTel": "+19185185900",
+  "market": "Glenpool, OK",
+  "tagline": "HVAC & plumbing \u00b7 Glenpool, OK",
+  "sourceUrl": "https://qualityhc.weebly.com/",
+  "heroPhoto": "../assets/photos/quality-heating-cooling-plumbing-hero.jpg",
+  "heroPhotoAlt": "Quality Heating, Cooling & Plumbing preview hero",
+  "claimLight": true,
+  "proof": [
+    "Glenpool, OK",
+    "Heating & cooling",
+    "Plumbing"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+19185185900"
+  },
+  "services": [
+    {
+      "title": "Heating",
+      "blurb": "Heating service for Glenpool-area customers."
+    },
+    {
+      "title": "Cooling",
+      "blurb": "Cooling and air conditioning work."
+    },
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing service as listed in the company name and live blurb."
+    }
+  ],
+  "about": {
+    "headline": "Quality Heating, Cooling & Plumbing",
+    "body": "Quality Heating, Cooling and Plumbing \u2014 Glenpool, OK."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1c2b2d",
+    "accent": "#ea580c",
+    "accentSoft": "#fb923c",
+    "paper": "#f7f2ed",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Thin Weebly \u2014 claim-light.",
+  "batch": "keepers-25"
+}

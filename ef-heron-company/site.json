@@ -1,0 +1,62 @@
+{
+  "slug": "ef-heron-company",
+  "name": "E.F. Heron Company Inc.",
+  "shortName": "E.F. Heron Company",
+  "phone": "(610) 532-1412",
+  "phoneTel": "+16105321412",
+  "market": "Delaware County, PA",
+  "tagline": "Plumbing, heating & cooling \u00b7 Delaware County, PA",
+  "sourceUrl": "https://efheroncompany.weebly.com/",
+  "heroPhoto": "../assets/photos/ef-heron-company-hero.jpg",
+  "heroPhotoAlt": "E.F. Heron Company preview hero",
+  "claimLight": true,
+  "proof": [
+    "Delaware County, PA",
+    "Plumbing specialists",
+    "Heating & cooling"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+16105321412"
+  },
+  "services": [
+    {
+      "title": "Residential & commercial plumbing",
+      "blurb": "Installing, repairing, and servicing plumbing."
+    },
+    {
+      "title": "Leaking toilets, faucets & drains",
+      "blurb": "Everyday plumbing repairs."
+    },
+    {
+      "title": "New construction plumbing",
+      "blurb": "New construction plumbing work."
+    },
+    {
+      "title": "Heating & cooling",
+      "blurb": "Heating and cooling to keep customers comfortable."
+    }
+  ],
+  "about": {
+    "headline": "E.F. Heron Company",
+    "body": "E.F. Heron Company Inc. \u2014 Delaware County plumbing, heating, and cooling."
+  },
+  "address": null,
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a120b",
+    "accent": "#a16207",
+    "accentSoft": "#eab308",
+    "paper": "#f8f5ef",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly: plumbing + heating/cooling sections. Two phones; primary from lead.",
+  "batch": "keepers-25"
+}

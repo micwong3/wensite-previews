@@ -1,0 +1,62 @@
+{
+  "slug": "heritage-services-ok",
+  "name": "Heritage Services Plumbing, Heating & Cooling",
+  "shortName": "Heritage Services",
+  "phone": "(405) 348-5555",
+  "phoneTel": "+14053485555",
+  "market": "Edmond / Oklahoma City, OK",
+  "tagline": "Plumbing, heating & cooling \u00b7 Edmond / OKC",
+  "sourceUrl": "https://hrt4gsrvcsok.weebly.com/",
+  "heroPhoto": "../assets/photos/heritage-services-ok-hero.jpg",
+  "heroPhotoAlt": "Heritage Services preview hero",
+  "claimLight": true,
+  "proof": [
+    "Since 1967",
+    "OKC metro",
+    "Plumbing & HVAC"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+14053485555"
+  },
+  "services": [
+    {
+      "title": "Plumbing",
+      "blurb": "Plumbing solutions for OKC metro communities."
+    },
+    {
+      "title": "HVAC",
+      "blurb": "Heating and cooling solutions."
+    },
+    {
+      "title": "Preventative maintenance",
+      "blurb": "Preventative maintenance at affordable response times as stated on the live site."
+    },
+    {
+      "title": "Repairs",
+      "blurb": "Repairs from licensed specialists (as published)."
+    }
+  ],
+  "about": {
+    "headline": "Heritage Services",
+    "body": "Heritage Services \u2014 plumbing, heating & cooling for Edmond / Oklahoma City since 1967."
+  },
+  "address": "601 Centennial Blvd, Edmond, OK 73013",
+  "hours": null,
+  "email": null,
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a1512",
+    "accent": "#9a3412",
+    "accentSoft": "#f97316",
+    "paper": "#faf5f0",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": "Weebly: since 1967, OKC metro, address, licensed specialists claim published \u2014 kept as published.",
+  "batch": "keepers-25"
+}
