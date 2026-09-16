@@ -1,0 +1,66 @@
+{
+  "slug": "fromartz-law",
+  "name": "Fromartz Law Offices",
+  "shortName": "Fromartz Law Offices",
+  "phone": "(718) 705-7400",
+  "phoneTel": "+17187057400",
+  "market": "Brooklyn, NY",
+  "tagline": "Law office \u00b7 Brooklyn, NY",
+  "sourceUrl": "https://fromartzlaw.weebly.com/",
+  "heroPhoto": "../assets/photos/fromartz-law-hero.jpg",
+  "heroPhotoAlt": "Fromartz Law Offices preview hero",
+  "claimLight": true,
+  "proof": [
+    "Law office",
+    "Published contact",
+    "Call the office"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+17187057400"
+  },
+  "services": [
+    {
+      "title": "Consultations",
+      "blurb": "Call to ask about a consultation."
+    },
+    {
+      "title": "Case review",
+      "blurb": "Discuss your matter using the published contact details."
+    },
+    {
+      "title": "Legal services",
+      "blurb": "Practice areas as listed on the firm website."
+    },
+    {
+      "title": "Client intake",
+      "blurb": "Reach the office by phone or email published on the site."
+    },
+    {
+      "title": "Local counsel",
+      "blurb": "Serving clients in the published market area."
+    }
+  ],
+  "about": {
+    "headline": "Fromartz Law Offices",
+    "body": "Fromartz Law Offices \u2014 preview rebuilt from the published website."
+  },
+  "address": "Brooklyn, NY",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "info@FromartzLaw.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0f172a",
+    "accent": "#2563eb",
+    "accentSoft": "#60a5fa",
+    "paper": "#f0f4fa",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

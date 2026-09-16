@@ -1,0 +1,66 @@
+{
+  "slug": "jim-sarlis-law",
+  "name": "The Law Office of Jim D. Sarlis",
+  "shortName": "The Law Office of Jim D. Sarlis",
+  "phone": "(718) 276-0010",
+  "phoneTel": "+17182760010",
+  "market": "Garden City, NY",
+  "tagline": "Law office \u00b7 Garden City, NY",
+  "sourceUrl": "https://sites.google.com/site/jimsarlis",
+  "heroPhoto": "../assets/photos/jim-sarlis-law-hero.jpg",
+  "heroPhotoAlt": "The Law Office of Jim D. Sarlis preview hero",
+  "claimLight": true,
+  "proof": [
+    "Law office",
+    "Published contact",
+    "Call the office"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+17182760010"
+  },
+  "services": [
+    {
+      "title": "Consultations",
+      "blurb": "Call to ask about a consultation."
+    },
+    {
+      "title": "Case review",
+      "blurb": "Discuss your matter using the published contact details."
+    },
+    {
+      "title": "Legal services",
+      "blurb": "Practice areas as listed on the firm website."
+    },
+    {
+      "title": "Client intake",
+      "blurb": "Reach the office by phone or email published on the site."
+    },
+    {
+      "title": "Local counsel",
+      "blurb": "Serving clients in the published market area."
+    }
+  ],
+  "about": {
+    "headline": "The Law Office of Jim D. Sarlis",
+    "body": "The Law Office of Jim D. Sarlis \u2014 preview rebuilt from the published website."
+  },
+  "address": "Garden City, NY",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "jimsarlis@hotmail.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0b1220",
+    "accent": "#1d4ed8",
+    "accentSoft": "#60a5fa",
+    "paper": "#f1f4fa",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

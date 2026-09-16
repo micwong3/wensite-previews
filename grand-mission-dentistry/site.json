@@ -1,0 +1,66 @@
+{
+  "slug": "grand-mission-dentistry",
+  "name": "Grand Mission Dentistry of Richmond",
+  "shortName": "Grand Mission Dentistry of Richmond",
+  "phone": "(281) 789-8836",
+  "phoneTel": "+12817898836",
+  "market": "Richmond, TX",
+  "tagline": "Family dentistry \u00b7 Richmond, TX",
+  "sourceUrl": "https://sites.google.com/view/grandmissiondentistry/home",
+  "heroPhoto": "../assets/photos/grand-mission-dentistry-hero.jpg",
+  "heroPhotoAlt": "Grand Mission Dentistry of Richmond preview hero",
+  "claimLight": true,
+  "proof": [
+    "Local practice",
+    "Published phone",
+    "Call to schedule"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+12817898836"
+  },
+  "services": [
+    {
+      "title": "General dentistry",
+      "blurb": "Cleanings, exams, and everyday dental care listed on the practice site."
+    },
+    {
+      "title": "Restorative care",
+      "blurb": "Fillings and restorative work as published by the practice."
+    },
+    {
+      "title": "Family care",
+      "blurb": "Care for patients across the household \u2014 ask what\u2019s offered."
+    },
+    {
+      "title": "New patients",
+      "blurb": "Call to ask about new-patient availability."
+    },
+    {
+      "title": "Appointments",
+      "blurb": "Schedule by phone using the published number."
+    }
+  ],
+  "about": {
+    "headline": "Grand Mission Dentistry of Richmond",
+    "body": "Grand Mission Dentistry of Richmond \u2014 preview rebuilt from the published website."
+  },
+  "address": "Richmond, TX",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "office@grandmissiondentistry.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a120b",
+    "accent": "#b45309",
+    "accentSoft": "#fbbf24",
+    "paper": "#f8f5ef",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

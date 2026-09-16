@@ -1,0 +1,66 @@
+{
+  "slug": "nievas-body-shop",
+  "name": "Nieva's Body Shop, Mechanic and Welding LLC",
+  "shortName": "Nieva's Body Shop, Mechanic and Welding",
+  "phone": "(714) 863-4135",
+  "phoneTel": "+17148634135",
+  "market": "Westminster, CA",
+  "tagline": "Collision & auto body \u00b7 Westminster, CA",
+  "sourceUrl": "https://nievasbodyshop.wixsite.com/my-site-1",
+  "heroPhoto": "../assets/photos/nievas-body-shop-hero.jpg",
+  "heroPhotoAlt": "Nieva's Body Shop, Mechanic and Welding preview hero",
+  "claimLight": true,
+  "proof": [
+    "Collision shop",
+    "Published phone",
+    "Ask for estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+17148634135"
+  },
+  "services": [
+    {
+      "title": "Collision repair",
+      "blurb": "Body and collision repair as listed on the shop site."
+    },
+    {
+      "title": "Paint & refinish",
+      "blurb": "Paint and refinish work described on the live site."
+    },
+    {
+      "title": "Estimates",
+      "blurb": "Ask the shop for an estimate on your vehicle."
+    },
+    {
+      "title": "All makes",
+      "blurb": "Work on vehicles the shop lists \u2014 call to confirm."
+    },
+    {
+      "title": "Drop-off",
+      "blurb": "Call to schedule drop-off or pickup if offered."
+    }
+  ],
+  "about": {
+    "headline": "Nieva's Body Shop, Mechanic and Welding",
+    "body": "Nieva's Body Shop, Mechanic and Welding \u2014 preview rebuilt from the published website."
+  },
+  "address": "Westminster, CA",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "Nievasbodyshop@gmail.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1e1b4b",
+    "accent": "#7c3aed",
+    "accentSoft": "#a78bfa",
+    "paper": "#f5f3ff",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

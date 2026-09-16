@@ -1,0 +1,66 @@
+{
+  "slug": "family-dentistry-niles",
+  "name": "Family Dentistry of Niles",
+  "shortName": "Family Dentistry of Niles",
+  "phone": "(847) 823-0260",
+  "phoneTel": "+18478230260",
+  "market": "Niles, IL",
+  "tagline": "Family dentistry \u00b7 Niles, IL",
+  "sourceUrl": "https://sites.google.com/view/familydentistryofniles/home",
+  "heroPhoto": "../assets/photos/family-dentistry-niles-hero.jpg",
+  "heroPhotoAlt": "Family Dentistry of Niles preview hero",
+  "claimLight": true,
+  "proof": [
+    "Local practice",
+    "Published phone",
+    "Call to schedule"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+18478230260"
+  },
+  "services": [
+    {
+      "title": "General dentistry",
+      "blurb": "Cleanings, exams, and everyday dental care listed on the practice site."
+    },
+    {
+      "title": "Restorative care",
+      "blurb": "Fillings and restorative work as published by the practice."
+    },
+    {
+      "title": "Family care",
+      "blurb": "Care for patients across the household \u2014 ask what\u2019s offered."
+    },
+    {
+      "title": "New patients",
+      "blurb": "Call to ask about new-patient availability."
+    },
+    {
+      "title": "Appointments",
+      "blurb": "Schedule by phone using the published number."
+    }
+  ],
+  "about": {
+    "headline": "Family Dentistry of Niles",
+    "body": "Family Dentistry of Niles \u2014 preview rebuilt from the published website."
+  },
+  "address": "Niles, IL",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "info@familydentistryofniles.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0c1f2e",
+    "accent": "#0d9488",
+    "accentSoft": "#5eead4",
+    "paper": "#f0f7f6",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

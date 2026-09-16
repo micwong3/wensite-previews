@@ -1,0 +1,66 @@
+{
+  "slug": "huntington-family-dental",
+  "name": "Huntington Family Dental",
+  "shortName": "Huntington Family Dental",
+  "phone": "(304) 736-4794",
+  "phoneTel": "+13047364794",
+  "market": "Huntington, WV",
+  "tagline": "Family dentistry \u00b7 Huntington, WV",
+  "sourceUrl": "https://sites.google.com/huntingtonfamilydental.net/huntington-family-dental",
+  "heroPhoto": "../assets/photos/huntington-family-dental-hero.jpg",
+  "heroPhotoAlt": "Huntington Family Dental preview hero",
+  "claimLight": true,
+  "proof": [
+    "Local practice",
+    "Published phone",
+    "Call to schedule"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+13047364794"
+  },
+  "services": [
+    {
+      "title": "General dentistry",
+      "blurb": "Cleanings, exams, and everyday dental care listed on the practice site."
+    },
+    {
+      "title": "Restorative care",
+      "blurb": "Fillings and restorative work as published by the practice."
+    },
+    {
+      "title": "Family care",
+      "blurb": "Care for patients across the household \u2014 ask what\u2019s offered."
+    },
+    {
+      "title": "New patients",
+      "blurb": "Call to ask about new-patient availability."
+    },
+    {
+      "title": "Appointments",
+      "blurb": "Schedule by phone using the published number."
+    }
+  ],
+  "about": {
+    "headline": "Huntington Family Dental",
+    "body": "Huntington Family Dental \u2014 preview rebuilt from the published website."
+  },
+  "address": "Huntington, WV",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "info@huntingtonfamilydental.net",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0f172a",
+    "accent": "#2563eb",
+    "accentSoft": "#60a5fa",
+    "paper": "#f0f4fa",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "chinoz-auto-body",
+  "name": "Chino'z Auto Body",
+  "shortName": "Chino'z Auto Body",
+  "phone": "(818) 999-9986",
+  "phoneTel": "+18189999986",
+  "market": "Canoga Park, CA",
+  "tagline": "Collision & auto body \u00b7 Canoga Park, CA",
+  "sourceUrl": "https://chinozaragoza.wixsite.com/mysite",
+  "heroPhoto": "../assets/photos/chinoz-auto-body-hero.jpg",
+  "heroPhotoAlt": "Chino'z Auto Body preview hero",
+  "claimLight": true,
+  "proof": [
+    "Collision shop",
+    "Published phone",
+    "Ask for estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+18189999986"
+  },
+  "services": [
+    {
+      "title": "Collision repair",
+      "blurb": "Body and collision repair as listed on the shop site."
+    },
+    {
+      "title": "Paint & refinish",
+      "blurb": "Paint and refinish work described on the live site."
+    },
+    {
+      "title": "Estimates",
+      "blurb": "Ask the shop for an estimate on your vehicle."
+    },
+    {
+      "title": "All makes",
+      "blurb": "Work on vehicles the shop lists \u2014 call to confirm."
+    },
+    {
+      "title": "Drop-off",
+      "blurb": "Call to schedule drop-off or pickup if offered."
+    }
+  ],
+  "about": {
+    "headline": "Chino'z Auto Body",
+    "body": "Chino'z Auto Body \u2014 preview rebuilt from the published website."
+  },
+  "address": "Canoga Park, CA",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "chinozaragoza@yahoo.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0b1220",
+    "accent": "#1d4ed8",
+    "accentSoft": "#60a5fa",
+    "paper": "#f1f4fa",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

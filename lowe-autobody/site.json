@@ -1,0 +1,66 @@
+{
+  "slug": "lowe-autobody",
+  "name": "Lowe Autobody LLC",
+  "shortName": "Lowe Autobody",
+  "phone": "(469) 850-2298",
+  "phoneTel": "+14698502298",
+  "market": "Celina, TX",
+  "tagline": "Collision & auto body \u00b7 Celina, TX",
+  "sourceUrl": "https://tstults2912.wixsite.com/loweautobody",
+  "heroPhoto": "../assets/photos/lowe-autobody-hero.jpg",
+  "heroPhotoAlt": "Lowe Autobody preview hero",
+  "claimLight": true,
+  "proof": [
+    "Collision shop",
+    "Published phone",
+    "Ask for estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+14698502298"
+  },
+  "services": [
+    {
+      "title": "Collision repair",
+      "blurb": "Body and collision repair as listed on the shop site."
+    },
+    {
+      "title": "Paint & refinish",
+      "blurb": "Paint and refinish work described on the live site."
+    },
+    {
+      "title": "Estimates",
+      "blurb": "Ask the shop for an estimate on your vehicle."
+    },
+    {
+      "title": "All makes",
+      "blurb": "Work on vehicles the shop lists \u2014 call to confirm."
+    },
+    {
+      "title": "Drop-off",
+      "blurb": "Call to schedule drop-off or pickup if offered."
+    }
+  ],
+  "about": {
+    "headline": "Lowe Autobody",
+    "body": "Lowe Autobody \u2014 preview rebuilt from the published website."
+  },
+  "address": "Celina, TX",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "trey@loweautobody.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#132a1f",
+    "accent": "#059669",
+    "accentSoft": "#34d399",
+    "paper": "#f0f7f3",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

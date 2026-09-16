@@ -1,0 +1,66 @@
+{
+  "slug": "jonathan-victor-law",
+  "name": "Law Office of Jonathan Victor PLLC",
+  "shortName": "Law Office of Jonathan Victor",
+  "phone": "(914) 263-9779",
+  "phoneTel": "+19142639779",
+  "market": "Mahopac, NY",
+  "tagline": "Law office \u00b7 Mahopac, NY",
+  "sourceUrl": "https://lawofficevictor.weebly.com/",
+  "heroPhoto": "../assets/photos/jonathan-victor-law-hero.jpg",
+  "heroPhotoAlt": "Law Office of Jonathan Victor preview hero",
+  "claimLight": true,
+  "proof": [
+    "Law office",
+    "Published contact",
+    "Call the office"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+19142639779"
+  },
+  "services": [
+    {
+      "title": "Consultations",
+      "blurb": "Call to ask about a consultation."
+    },
+    {
+      "title": "Case review",
+      "blurb": "Discuss your matter using the published contact details."
+    },
+    {
+      "title": "Legal services",
+      "blurb": "Practice areas as listed on the firm website."
+    },
+    {
+      "title": "Client intake",
+      "blurb": "Reach the office by phone or email published on the site."
+    },
+    {
+      "title": "Local counsel",
+      "blurb": "Serving clients in the published market area."
+    }
+  ],
+  "about": {
+    "headline": "Law Office of Jonathan Victor",
+    "body": "Law Office of Jonathan Victor \u2014 preview rebuilt from the published website."
+  },
+  "address": "Mahopac, NY",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "jon.m.victor@gmail.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1e1b4b",
+    "accent": "#7c3aed",
+    "accentSoft": "#a78bfa",
+    "paper": "#f5f3ff",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

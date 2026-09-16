@@ -1,0 +1,66 @@
+{
+  "slug": "serenity-nail-salon-spa",
+  "name": "Serenity Nail Salon & Spa",
+  "shortName": "Serenity Nail Salon & Spa",
+  "phone": "(513) 561-5444",
+  "phoneTel": "+15135615444",
+  "market": "Cincinnati, OH",
+  "tagline": "Nail salon & spa \u00b7 Cincinnati, OH",
+  "sourceUrl": "https://serenitynailsalonspa.weebly.com/contact.html",
+  "heroPhoto": "../assets/photos/serenity-nail-salon-spa-hero.jpg",
+  "heroPhotoAlt": "Serenity Nail Salon & Spa preview hero",
+  "claimLight": true,
+  "proof": [
+    "Local salon",
+    "Published phone",
+    "Call to book"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+15135615444"
+  },
+  "services": [
+    {
+      "title": "Nail care",
+      "blurb": "Manicures and nail services listed on the salon site."
+    },
+    {
+      "title": "Spa services",
+      "blurb": "Spa offerings as published on the live site."
+    },
+    {
+      "title": "Appointments",
+      "blurb": "Book by phone using the published number."
+    },
+    {
+      "title": "Walk-ins",
+      "blurb": "Ask whether walk-ins are accepted."
+    },
+    {
+      "title": "Gift visits",
+      "blurb": "Call to ask about appointments for guests."
+    }
+  ],
+  "about": {
+    "headline": "Serenity Nail Salon & Spa",
+    "body": "Serenity Nail Salon & Spa \u2014 preview rebuilt from the published website."
+  },
+  "address": "Cincinnati, OH",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "serenitynailsalon@gmail.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0c1f2e",
+    "accent": "#0d9488",
+    "accentSoft": "#5eead4",
+    "paper": "#f0f7f6",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

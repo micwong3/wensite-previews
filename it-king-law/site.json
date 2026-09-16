@@ -1,0 +1,66 @@
+{
+  "slug": "it-king-law",
+  "name": "Law Office of I. T. King",
+  "shortName": "Law Office of I. T. King",
+  "phone": "(512) 306-7223",
+  "phoneTel": "+15123067223",
+  "market": "Marble Falls / Austin, TX",
+  "tagline": "Law office \u00b7 Marble Falls / Austin, TX",
+  "sourceUrl": "https://sites.google.com/view/www-itklaw-com/home",
+  "heroPhoto": "../assets/photos/it-king-law-hero.jpg",
+  "heroPhotoAlt": "Law Office of I. T. King preview hero",
+  "claimLight": true,
+  "proof": [
+    "Law office",
+    "Published contact",
+    "Call the office"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+15123067223"
+  },
+  "services": [
+    {
+      "title": "Consultations",
+      "blurb": "Call to ask about a consultation."
+    },
+    {
+      "title": "Case review",
+      "blurb": "Discuss your matter using the published contact details."
+    },
+    {
+      "title": "Legal services",
+      "blurb": "Practice areas as listed on the firm website."
+    },
+    {
+      "title": "Client intake",
+      "blurb": "Reach the office by phone or email published on the site."
+    },
+    {
+      "title": "Local counsel",
+      "blurb": "Serving clients in the published market area."
+    }
+  ],
+  "about": {
+    "headline": "Law Office of I. T. King",
+    "body": "Law Office of I. T. King \u2014 preview rebuilt from the published website."
+  },
+  "address": "Marble Falls / Austin, TX",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "tomking@itklaw.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a1510",
+    "accent": "#dc2626",
+    "accentSoft": "#f87171",
+    "paper": "#faf5f3",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

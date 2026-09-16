@@ -1,0 +1,66 @@
+{
+  "slug": "ricks-paint-body",
+  "name": "Rick's Paint & Body",
+  "shortName": "Rick's Paint & Body",
+  "phone": "(706) 868-9904",
+  "phoneTel": "+17068689904",
+  "market": "Martinez / Augusta, GA",
+  "tagline": "Collision & auto body \u00b7 Martinez / Augusta, GA",
+  "sourceUrl": "https://rickspaintandbody.weebly.com/",
+  "heroPhoto": "../assets/photos/ricks-paint-body-hero.jpg",
+  "heroPhotoAlt": "Rick's Paint & Body preview hero",
+  "claimLight": true,
+  "proof": [
+    "Collision shop",
+    "Published phone",
+    "Ask for estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+17068689904"
+  },
+  "services": [
+    {
+      "title": "Collision repair",
+      "blurb": "Body and collision repair as listed on the shop site."
+    },
+    {
+      "title": "Paint & refinish",
+      "blurb": "Paint and refinish work described on the live site."
+    },
+    {
+      "title": "Estimates",
+      "blurb": "Ask the shop for an estimate on your vehicle."
+    },
+    {
+      "title": "All makes",
+      "blurb": "Work on vehicles the shop lists \u2014 call to confirm."
+    },
+    {
+      "title": "Drop-off",
+      "blurb": "Call to schedule drop-off or pickup if offered."
+    }
+  ],
+  "about": {
+    "headline": "Rick's Paint & Body",
+    "body": "Rick's Paint & Body \u2014 preview rebuilt from the published website."
+  },
+  "address": "Martinez / Augusta, GA",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "katie@rickspaintandbody.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#141410",
+    "accent": "#a16207",
+    "accentSoft": "#eab308",
+    "paper": "#f8f5ef",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

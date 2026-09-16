@@ -1,0 +1,66 @@
+{
+  "slug": "lee-immigration-law",
+  "name": "Lee Immigration Law Firm",
+  "shortName": "Lee Immigration Law Firm",
+  "phone": "(201) 898-2030",
+  "phoneTel": "+12018982030",
+  "market": "Englewood Cliffs, NJ",
+  "tagline": "Law office \u00b7 Englewood Cliffs, NJ",
+  "sourceUrl": "https://sites.google.com/leelaw.org/leelaw1",
+  "heroPhoto": "../assets/photos/lee-immigration-law-hero.jpg",
+  "heroPhotoAlt": "Lee Immigration Law Firm preview hero",
+  "claimLight": true,
+  "proof": [
+    "Law office",
+    "Published contact",
+    "Call the office"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+12018982030"
+  },
+  "services": [
+    {
+      "title": "Consultations",
+      "blurb": "Call to ask about a consultation."
+    },
+    {
+      "title": "Case review",
+      "blurb": "Discuss your matter using the published contact details."
+    },
+    {
+      "title": "Legal services",
+      "blurb": "Practice areas as listed on the firm website."
+    },
+    {
+      "title": "Client intake",
+      "blurb": "Reach the office by phone or email published on the site."
+    },
+    {
+      "title": "Local counsel",
+      "blurb": "Serving clients in the published market area."
+    }
+  ],
+  "about": {
+    "headline": "Lee Immigration Law Firm",
+    "body": "Lee Immigration Law Firm \u2014 preview rebuilt from the published website."
+  },
+  "address": "Englewood Cliffs, NJ",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "info@leelaw.org",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#141410",
+    "accent": "#a16207",
+    "accentSoft": "#eab308",
+    "paper": "#f8f5ef",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

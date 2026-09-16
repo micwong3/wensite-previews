@@ -1,0 +1,66 @@
+{
+  "slug": "impact-paint-body",
+  "name": "Impact Paint and Body Shop",
+  "shortName": "Impact Paint and Body Shop",
+  "phone": "(954) 491-1142",
+  "phoneTel": "+19544911142",
+  "market": "Fort Lauderdale, FL",
+  "tagline": "Collision & auto body \u00b7 Fort Lauderdale, FL",
+  "sourceUrl": "https://impactpaintandbody.weebly.com/",
+  "heroPhoto": "../assets/photos/impact-paint-body-hero.jpg",
+  "heroPhotoAlt": "Impact Paint and Body Shop preview hero",
+  "claimLight": true,
+  "proof": [
+    "Collision shop",
+    "Published phone",
+    "Ask for estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+19544911142"
+  },
+  "services": [
+    {
+      "title": "Collision repair",
+      "blurb": "Body and collision repair as listed on the shop site."
+    },
+    {
+      "title": "Paint & refinish",
+      "blurb": "Paint and refinish work described on the live site."
+    },
+    {
+      "title": "Estimates",
+      "blurb": "Ask the shop for an estimate on your vehicle."
+    },
+    {
+      "title": "All makes",
+      "blurb": "Work on vehicles the shop lists \u2014 call to confirm."
+    },
+    {
+      "title": "Drop-off",
+      "blurb": "Call to schedule drop-off or pickup if offered."
+    }
+  ],
+  "about": {
+    "headline": "Impact Paint and Body Shop",
+    "body": "Impact Paint and Body Shop \u2014 preview rebuilt from the published website."
+  },
+  "address": "Fort Lauderdale, FL",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "impactpb@bellsouth.net",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a120b",
+    "accent": "#b45309",
+    "accentSoft": "#fbbf24",
+    "paper": "#f8f5ef",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

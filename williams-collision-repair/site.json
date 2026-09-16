@@ -1,0 +1,66 @@
+{
+  "slug": "williams-collision-repair",
+  "name": "Williams Collision Repair",
+  "shortName": "Williams Collision Repair",
+  "phone": "(903) 665-3542",
+  "phoneTel": "+19036653542",
+  "market": "Jefferson, TX",
+  "tagline": "Collision & auto body \u00b7 Jefferson, TX",
+  "sourceUrl": "https://williamscollision.wixsite.com/repair",
+  "heroPhoto": "../assets/photos/williams-collision-repair-hero.jpg",
+  "heroPhotoAlt": "Williams Collision Repair preview hero",
+  "claimLight": true,
+  "proof": [
+    "Collision shop",
+    "Published phone",
+    "Ask for estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+19036653542"
+  },
+  "services": [
+    {
+      "title": "Collision repair",
+      "blurb": "Body and collision repair as listed on the shop site."
+    },
+    {
+      "title": "Paint & refinish",
+      "blurb": "Paint and refinish work described on the live site."
+    },
+    {
+      "title": "Estimates",
+      "blurb": "Ask the shop for an estimate on your vehicle."
+    },
+    {
+      "title": "All makes",
+      "blurb": "Work on vehicles the shop lists \u2014 call to confirm."
+    },
+    {
+      "title": "Drop-off",
+      "blurb": "Call to schedule drop-off or pickup if offered."
+    }
+  ],
+  "about": {
+    "headline": "Williams Collision Repair",
+    "body": "Williams Collision Repair \u2014 preview rebuilt from the published website."
+  },
+  "address": "Jefferson, TX",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "Williamscollision@att.net",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#0c1f2e",
+    "accent": "#0d9488",
+    "accentSoft": "#5eead4",
+    "paper": "#f0f7f6",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "jjs-auto-body-paint",
+  "name": "JJ's Auto Body & Paint",
+  "shortName": "JJ's Auto Body & Paint",
+  "phone": "(661) 489-4397",
+  "phoneTel": "+16614894397",
+  "market": "Bakersfield, CA",
+  "tagline": "Collision & auto body \u00b7 Bakersfield, CA",
+  "sourceUrl": "https://jjsautobodyusa.wixsite.com/home",
+  "heroPhoto": "../assets/photos/jjs-auto-body-paint-hero.jpg",
+  "heroPhotoAlt": "JJ's Auto Body & Paint preview hero",
+  "claimLight": true,
+  "proof": [
+    "Collision shop",
+    "Published phone",
+    "Ask for estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+16614894397"
+  },
+  "services": [
+    {
+      "title": "Collision repair",
+      "blurb": "Body and collision repair as listed on the shop site."
+    },
+    {
+      "title": "Paint & refinish",
+      "blurb": "Paint and refinish work described on the live site."
+    },
+    {
+      "title": "Estimates",
+      "blurb": "Ask the shop for an estimate on your vehicle."
+    },
+    {
+      "title": "All makes",
+      "blurb": "Work on vehicles the shop lists \u2014 call to confirm."
+    },
+    {
+      "title": "Drop-off",
+      "blurb": "Call to schedule drop-off or pickup if offered."
+    }
+  ],
+  "about": {
+    "headline": "JJ's Auto Body & Paint",
+    "body": "JJ's Auto Body & Paint \u2014 preview rebuilt from the published website."
+  },
+  "address": "Bakersfield, CA",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "jjsautobodyusa@gmail.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a1510",
+    "accent": "#dc2626",
+    "accentSoft": "#f87171",
+    "paper": "#faf5f3",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

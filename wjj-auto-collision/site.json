@@ -1,0 +1,66 @@
+{
+  "slug": "wjj-auto-collision",
+  "name": "WJJ Auto Collision",
+  "shortName": "WJJ Auto Collision",
+  "phone": "(914) 664-3317",
+  "phoneTel": "+19146643317",
+  "market": "Mount Vernon, NY",
+  "tagline": "Collision & auto body \u00b7 Mount Vernon, NY",
+  "sourceUrl": "https://wjjautocollision.wixsite.com/website",
+  "heroPhoto": "../assets/photos/wjj-auto-collision-hero.jpg",
+  "heroPhotoAlt": "WJJ Auto Collision preview hero",
+  "claimLight": true,
+  "proof": [
+    "Collision shop",
+    "Published phone",
+    "Ask for estimate"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+19146643317"
+  },
+  "services": [
+    {
+      "title": "Collision repair",
+      "blurb": "Body and collision repair as listed on the shop site."
+    },
+    {
+      "title": "Paint & refinish",
+      "blurb": "Paint and refinish work described on the live site."
+    },
+    {
+      "title": "Estimates",
+      "blurb": "Ask the shop for an estimate on your vehicle."
+    },
+    {
+      "title": "All makes",
+      "blurb": "Work on vehicles the shop lists \u2014 call to confirm."
+    },
+    {
+      "title": "Drop-off",
+      "blurb": "Call to schedule drop-off or pickup if offered."
+    }
+  ],
+  "about": {
+    "headline": "WJJ Auto Collision",
+    "body": "WJJ Auto Collision \u2014 preview rebuilt from the published website."
+  },
+  "address": "Mount Vernon, NY",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "wjjautocollision@gmail.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#1a120b",
+    "accent": "#b45309",
+    "accentSoft": "#fbbf24",
+    "paper": "#f8f5ef",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "soundview-family-dental",
+  "name": "Soundview Family Dental",
+  "shortName": "Soundview Family Dental",
+  "phone": "(425) 563-6360",
+  "phoneTel": "+14255636360",
+  "market": "Edmonds, WA",
+  "tagline": "Family dentistry \u00b7 Edmonds, WA",
+  "sourceUrl": "https://sites.google.com/view/soundviewfamilydental/",
+  "heroPhoto": "../assets/photos/soundview-family-dental-hero.jpg",
+  "heroPhotoAlt": "Soundview Family Dental preview hero",
+  "claimLight": true,
+  "proof": [
+    "Local practice",
+    "Published phone",
+    "Call to schedule"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+14255636360"
+  },
+  "services": [
+    {
+      "title": "General dentistry",
+      "blurb": "Cleanings, exams, and everyday dental care listed on the practice site."
+    },
+    {
+      "title": "Restorative care",
+      "blurb": "Fillings and restorative work as published by the practice."
+    },
+    {
+      "title": "Family care",
+      "blurb": "Care for patients across the household \u2014 ask what\u2019s offered."
+    },
+    {
+      "title": "New patients",
+      "blurb": "Call to ask about new-patient availability."
+    },
+    {
+      "title": "Appointments",
+      "blurb": "Schedule by phone using the published number."
+    }
+  ],
+  "about": {
+    "headline": "Soundview Family Dental",
+    "body": "Soundview Family Dental \u2014 preview rebuilt from the published website."
+  },
+  "address": "Edmonds, WA",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "frontdesk@soundviewfamilydental.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#132a1f",
+    "accent": "#059669",
+    "accentSoft": "#34d399",
+    "paper": "#f0f7f3",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}

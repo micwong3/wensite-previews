@@ -1,0 +1,66 @@
+{
+  "slug": "john-holler-law",
+  "name": "Law Office of John F. Holler",
+  "shortName": "Law Office of John F. Holler",
+  "phone": "(212) 252-9893",
+  "phoneTel": "+12122529893",
+  "market": "New York, NY",
+  "tagline": "Law office \u00b7 New York, NY",
+  "sourceUrl": "https://sites.google.com/view/johnfhollerattorneyatlaw/contact",
+  "heroPhoto": "../assets/photos/john-holler-law-hero.jpg",
+  "heroPhotoAlt": "Law Office of John F. Holler preview hero",
+  "claimLight": true,
+  "proof": [
+    "Law office",
+    "Published contact",
+    "Call the office"
+  ],
+  "primaryCta": {
+    "label": "Call for service",
+    "href": "tel:+12122529893"
+  },
+  "services": [
+    {
+      "title": "Consultations",
+      "blurb": "Call to ask about a consultation."
+    },
+    {
+      "title": "Case review",
+      "blurb": "Discuss your matter using the published contact details."
+    },
+    {
+      "title": "Legal services",
+      "blurb": "Practice areas as listed on the firm website."
+    },
+    {
+      "title": "Client intake",
+      "blurb": "Reach the office by phone or email published on the site."
+    },
+    {
+      "title": "Local counsel",
+      "blurb": "Serving clients in the published market area."
+    }
+  ],
+  "about": {
+    "headline": "Law Office of John F. Holler",
+    "body": "Law Office of John F. Holler \u2014 preview rebuilt from the published website."
+  },
+  "address": "New York, NY",
+  "hours": "Call using the published number \u2014 hours may not be fully listed on the current site.",
+  "email": "trafficlaw212@yahoo.com",
+  "pages": [
+    "home",
+    "services",
+    "contact"
+  ],
+  "tokens": {
+    "ink": "#132a1f",
+    "accent": "#059669",
+    "accentSoft": "#34d399",
+    "paper": "#f0f7f3",
+    "display": "Bebas Neue",
+    "sans": "Source Sans 3"
+  },
+  "scrapeNote": null,
+  "batch": "email-queue-25"
+}
