@@ -187,26 +187,35 @@ var TRACK_ENDPOINT = ""; // <- paste Apps Script web app /exec URL here ("" = lo
     return "../../../activate.html?biz=" + encodeURIComponent(slug);
   }
 
-  var chrome = document.createElement("div");
-  chrome.className = "ws-chrome";
-  chrome.setAttribute("role", "banner");
-  chrome.innerHTML =
-    '<div class="ws-chrome-inner">' +
-      '<div class="ws-chrome-copyblock">' +
-        '<div class="ws-chrome-top">' +
-          '<span class="ws-badge">Private preview</span>' +
-          '<span class="ws-timer" data-ws-timer aria-live="polite">—</span>' +
+  // Stamped pages ship this bar pre-rendered in the HTML (_ops/perf_inline.py) so it is painted with
+  // the first frame and nothing shifts when this script runs; otherwise build it here as before.
+  var chrome = document.querySelector(".ws-chrome[data-ws-prerendered]");
+  if (chrome) {
+    var pre = chrome.querySelector("[data-ws-activate]");
+    if (pre) pre.setAttribute("href", activateHref());
+  } else {
+    chrome = document.createElement("div");
+    chrome.className = "ws-chrome";
+    chrome.setAttribute("role", "banner");
+    chrome.innerHTML =
+      '<div class="ws-chrome-inner">' +
+        '<div class="ws-chrome-copyblock">' +
+          '<div class="ws-chrome-top">' +
+            '<span class="ws-badge">Private preview</span>' +
+            '<span class="ws-timer" data-ws-timer aria-live="polite">—</span>' +
+          "</div>" +
+          '<p class="ws-copy">A private rebuild for <strong>' +
+            name.replace(/</g, "&lt;") +
+          "</strong>. Not a live site — claim it before this preview expires.</p>" +
         "</div>" +
-        '<p class="ws-copy">A private rebuild for <strong>' +
-          name.replace(/</g, "&lt;") +
-        "</strong>. Not a live site — claim it before this preview expires.</p>" +
-      "</div>" +
-      '<a class="ws-activate" data-ws-activate href="' +
-        activateHref() +
-      '">Activate this site — $99/mo</a>' +
-    "</div>";
+        '<a class="ws-activate" data-ws-activate href="' +
+          activateHref() +
+        '">Activate this site — $99/mo</a>' +
+      "</div>";
 
-  body.insertBefore(chrome, body.firstChild);
+    body.insertBefore(chrome, body.firstChild);
+  }
+
   body.classList.add("ws-has-chrome");
 
   var timerEl = chrome.querySelector("[data-ws-timer]");

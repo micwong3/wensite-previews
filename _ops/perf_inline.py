@@ -13,13 +13,17 @@ What it does to every HTML page inside a stamped preview folder
   * Home hero <img> (assets/photos/*-hero.*): fetchpriority="high", real width/height,
     srcset with the 800w mobile variant (<name>-800.jpg, made by _ops/perf_heroes.mjs) when present,
     and a matching <link rel="preload" as="image" imagesrcset=...> in <head>.
+  * Preview chrome bar (Private preview / countdown / Activate) is pre-rendered as the first child of
+    <body> (markup mirrors shared/preview-chrome.js, which now reuses it) so it paints with the first
+    frame instead of being injected at the end of the page and shoving the hero down (layout shift).
+    If you change the bar markup/copy in preview-chrome.js, change CHROME_TPL here too and re-run.
 Everything generated lives between <!-- ws-perf:start ... --> and <!-- ws-perf:end -->;
 the start marker records the original stylesheet hrefs, so re-running rebuilds the block
 from current sources (run again after editing shared/stamp/shell.css or a brand.css).
 
 Usage: python3 _ops/perf_inline.py [--check]
 """
-import os, re, sys, json, hashlib, urllib.request, struct
+import os, re, sys, json, hashlib, urllib.request, urllib.parse, struct
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_DIR = os.path.join(ROOT, 'shared', 'fonts')
@@ -118,6 +122,35 @@ def jpeg_png_size(path):
         seg = struct.unpack('>H', d[i + 2:i + 4])[0]; i += 2 + seg
     return None
 
+CHROME_RE = re.compile(r'<!-- ws-perf:chrome start -->.*?<!-- ws-perf:chrome end -->\n?', re.S)
+CHROME_TPL = ('<!-- ws-perf:chrome start -->\n'
+  '<div class="ws-chrome" role="banner" data-ws-prerendered><div class="ws-chrome-inner"><div class="ws-chrome-copyblock">'
+  '<div class="ws-chrome-top"><span class="ws-badge">Private preview</span><span class="ws-timer" data-ws-timer aria-live="polite">\u2014</span></div>'
+  '<p class="ws-copy">A private rebuild for <strong>{name}</strong>. Not a live site \u2014 claim it before this preview expires.</p></div>'
+  '<a class="ws-activate" data-ws-activate href="{href}">Activate this site \u2014 $99/mo</a></div></div>\n'
+  '<!-- ws-perf:chrome end -->\n')
+
+def add_chrome(html):
+    html = CHROME_RE.sub('', html)
+    m = re.search(r'<body\b[^>]*>', html)
+    if not m or 'shared/preview-chrome.js' not in html or 'data-ws-track-only' in html:
+        return html
+    tag = m.group(0)
+    name = attr(tag, 'data-preview-name') or 'this business'
+    name = name.replace('<', '&lt;')
+    slug = attr(tag, 'data-preview-slug') or 'preview'
+    href = attr(tag, 'data-activate-href')
+    if not href:
+        root = attr(tag, 'data-ws-root')
+        href = (re.sub(r'/?$', '/', root) if root else '../../../') + 'activate.html?biz=' + urllib.parse.quote(slug, safe='')
+    new_tag = tag
+    cls = attr(tag, 'class')
+    if cls is None:
+        new_tag = tag[:-1] + ' class="ws-has-chrome">'
+    elif 'ws-has-chrome' not in cls.split():
+        new_tag = re.sub(r'\bclass="([^"]*)"', lambda k: f'class="{k.group(1)} ws-has-chrome"', tag, count=1)
+    return html[:m.start()] + new_tag + '\n' + CHROME_TPL.format(name=name, href=href) + html[m.end():].lstrip('\n')
+
 LINK_RE = re.compile(r'[ \t]*<link\b[^>]*>\n?', re.I)
 
 def attr(tag, name):
@@ -192,6 +225,7 @@ def process(page):
     block = (f'<!-- ws-perf:start {meta} -->\n' + preload +
              '<style data-ws-perf>' + faces + ''.join(parts) + '</style>\n<!-- ws-perf:end -->\n')
     html = html[:insert_at] + block + html[insert_at:]
+    html = add_chrome(html)
     if html != orig:
         open(page, 'w', encoding='utf-8').write(html)
         return True
