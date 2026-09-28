@@ -1,5 +1,138 @@
+/* ==========================================================================
+ * Wensite preview visit/click logging (fail-silent).
+ * Posts one JSON event per page_view / cta_click / activate_click to a
+ * Google Apps Script web app that appends a row to "Wensite Preview Visits".
+ * Source for the sink: _ops/preview-visit-logger.gs  (see _ops/PREVIEW_VISIT_LOGGING.md)
+ * ========================================================================== */
+var TRACK_ENDPOINT = ""; // <- paste Apps Script web app /exec URL here ("" = logging disabled)
+
 (function () {
   "use strict";
+  try {
+    var W = window, D = document, B = D.body;
+    var PV_DEDUPE_MS = 30 * 60 * 1000;
+    var BOT_RE = /bot|crawl|spider|slurp|preview|facebookexternalhit|WhatsApp|Slackbot|TelegramBot|Twitterbot|LinkedInBot|Discordbot|Googlebot|bingbot|Applebot|HeadlessChrome|curl|wget|python-requests|Go-http-client/i;
+
+    var params;
+    try { params = new URLSearchParams(W.location.search); } catch (e) { params = { get: function () { return null; } }; }
+
+    function ssGet(k) { try { return W.sessionStorage.getItem(k); } catch (e) { return null; } }
+    function ssSet(k, v) { try { W.sessionStorage.setItem(k, v); } catch (e) {} }
+    function lsGet(k) { try { return W.localStorage.getItem(k); } catch (e) { return null; } }
+    function lsSet(k, v) { try { W.localStorage.setItem(k, v); } catch (e) {} }
+    function lsDel(k) { try { W.localStorage.removeItem(k); } catch (e) {} }
+    function trunc(s, n) { s = s == null ? "" : String(s); return s.length > n ? s.slice(0, n) : s; }
+
+    // Slug: body[data-preview-slug]; activate.html falls back to ?biz=
+    var slug = (B && B.getAttribute("data-preview-slug")) || params.get("biz") || "";
+
+    // src: ?s= on landing, persisted per slug for the visit (sessionStorage)
+    var srcKey = "wensite_src_" + slug;
+    var srcParam = params.get("s");
+    if (srcParam) ssSet(srcKey, trunc(srcParam, 40));
+    var src = trunc(srcParam || ssGet(srcKey) || "", 40);
+
+    // is_test: ?test=1 (sticky in localStorage), ?test=0 clears; localhost always test
+    var testKey = "wensite_is_test";
+    var testParam = params.get("test");
+    if (testParam === "1") lsSet(testKey, "1");
+    else if (testParam === "0") lsDel(testKey);
+    var host = (W.location.hostname || "").toLowerCase();
+    var is_test = lsGet(testKey) === "1" || host === "localhost" || host === "127.0.0.1" || W.location.protocol === "file:";
+
+    var uaFull = (W.navigator && W.navigator.userAgent) || "";
+    var is_bot = BOT_RE.test(uaFull) || !!(W.navigator && W.navigator.webdriver);
+
+    function pageFromPath(path) {
+      var p = (path || "").toLowerCase();
+      if (/activate(\.html)?\/?$/.test(p) || /\/activate\//.test(p)) return "activate";
+      if (/\/services(\/|\.html|$)/.test(p)) return "services";
+      if (/\/contact(\/|\.html|$)/.test(p)) return "contact";
+      if (/(^|\/)(index\.html)?$/.test(p)) return "home";
+      return "other";
+    }
+
+    function tsET(d) {
+      try {
+        var parts = {};
+        new Intl.DateTimeFormat("en-US", {
+          timeZone: "America/New_York", hourCycle: "h23",
+          year: "numeric", month: "2-digit", day: "2-digit",
+          hour: "2-digit", minute: "2-digit", second: "2-digit"
+        }).formatToParts(d).forEach(function (x) { parts[x.type] = x.value; });
+        var hh = parts.hour === "24" ? "00" : parts.hour;
+        var asUTC = Date.UTC(+parts.year, +parts.month - 1, +parts.day, +hh, +parts.minute, +parts.second);
+        var off = Math.round((asUTC - Math.floor(d.getTime() / 1000) * 1000) / 60000);
+        var sign = off < 0 ? "-" : "+", a = Math.abs(off);
+        var oh = Math.floor(a / 60), om = a % 60;
+        return parts.year + "-" + parts.month + "-" + parts.day + "T" + hh + ":" + parts.minute + ":" + parts.second +
+          sign + (oh < 10 ? "0" : "") + oh + ":" + (om < 10 ? "0" : "") + om;
+      } catch (e) { return d.toISOString(); }
+    }
+
+    function send(eventName) {
+      try {
+        if (!TRACK_ENDPOINT) return;
+        var path = W.location.pathname || "/";
+        var payload = JSON.stringify({
+          ts_et: tsET(new Date()),
+          preview_slug: slug,
+          event: eventName,
+          page: pageFromPath(path),
+          path: trunc(path, 300),
+          referrer: trunc(D.referrer || "", 300),
+          ua: trunc(uaFull, 180),
+          src: src,
+          is_test: is_test,
+          is_bot: is_bot
+        });
+        // text/plain => CORS "simple request": no preflight (Apps Script can't answer OPTIONS)
+        var sent = false;
+        if (W.navigator && typeof W.navigator.sendBeacon === "function") {
+          try { sent = W.navigator.sendBeacon(TRACK_ENDPOINT, new Blob([payload], { type: "text/plain;charset=UTF-8" })); } catch (e) { sent = false; }
+        }
+        if (!sent && typeof W.fetch === "function") {
+          W.fetch(TRACK_ENDPOINT, {
+            method: "POST", mode: "no-cors", keepalive: true, credentials: "omit",
+            headers: { "Content-Type": "text/plain;charset=UTF-8" }, body: payload
+          }).catch(function () {});
+        }
+      } catch (e) {}
+    }
+
+    // 1) page_view, deduped per slug+path for 30 min in this tab session
+    try {
+      var pvKey = "wensite_pv_" + slug + "_" + (W.location.pathname || "/");
+      var last = parseInt(ssGet(pvKey) || "", 10);
+      var now = Date.now();
+      if (!(last > 0 && now - last < PV_DEDUPE_MS)) {
+        ssSet(pvKey, String(now));
+        send("page_view");
+      }
+    } catch (e) {}
+
+    // 2/3) clicks — delegated (capture) so dynamically injected chrome links count too.
+    var ACTIVATE_SEL = '.ws-activate, [data-ws-activate], [data-ws-activate-link], a[href*="activate.html"], a[href="#activate"]';
+    var CTA_SEL = ".btn-primary, .nav-cta, .home-actions .btn-primary";
+    D.addEventListener("click", function (e) {
+      try {
+        var t = e.target;
+        if (!t || !t.closest) return;
+        if (t.closest(ACTIVATE_SEL)) send("activate_click");
+        else if (t.closest(CTA_SEL)) send("cta_click");
+      } catch (err) {}
+    }, true);
+
+    W.__wensiteTrack = { send: send, slug: slug, src: src, is_test: is_test, is_bot: is_bot };
+  } catch (e) {}
+})();
+
+(function () {
+  "use strict";
+
+  // activate.html loads this file with data-ws-track-only: logging only, no chrome UI
+  var me = document.currentScript;
+  if (me && me.hasAttribute("data-ws-track-only")) return;
 
   var body = document.body;
   var slug = body.getAttribute("data-preview-slug") || "preview";
