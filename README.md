@@ -56,3 +56,12 @@ See **TEMPLATES.md**. Reference lead: `lgsl-mechanical/` (Home · Services · Co
 Activate ($99/mo) is injected by shared chrome on every page; countdown stays.
 
 DNS records: `_ops/GODADDY_DNS_sitesremade.md`
+
+## Performance pass (mobile LCP)
+
+Stamped preview pages (Home/Services/Contact) get their CSS inlined and fonts self-hosted by
+`python3 _ops/perf_inline.py` (idempotent; everything it writes sits between `<!-- ws-perf:start -->`
+and `<!-- ws-perf:end -->`). **Re-run it after editing `shared/preview-chrome.css`,
+`shared/stamp/shell.css` or any `brand.css`**, or after stamping a new preview, otherwise the page keeps
+the old inlined copy. Hero photos: `_ops/perf_heroes.mjs` (max 1200px, <=90 KiB, plus a 800w variant for srcset).
+Self-hosted Google Fonts (OFL) live in `shared/fonts/`.
